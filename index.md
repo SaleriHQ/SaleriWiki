@@ -21,6 +21,8 @@ created: 2026-04-07
 | [[Clippings/02. Ready Go - Learn You A Haskell for Great Good!]] | LYAH | 2026-04-08 | #clippings #haskell #tutorial |
 | [[Clippings/Project Glasswing Securing critical software for the AI era]] | Anthropic | 2026-04-08 | #clippings #ai #security |
 | [[Clippings/02-ADTs]] | UPenn CIS194 | 2026-04-09 | #clippings #haskell #adts |
+| [[Clippings/02-ADTs 1.md]] | UPenn CIS194 | 2026-04-09 | #clippings #haskell #lecture |
+| [[Clippings/Real-World-Haskell-02-03.md]] | O'Reilly | 2026-04-09 | #clippings #haskell #book |
 
 **01-intro** - Haskell 基础教程，介绍函数式编程、惰性求值、静态类型等核心概念
 
@@ -39,6 +41,10 @@ created: 2026-04-07
 **Project Glasswing** - Anthropic 联合多巨头发起的 AI 安全计划，用 Claude 发现零日漏洞
 
 **02-ADTs** - CIS 194 HW2：日志解析系统，练习代数数据类型（MessageType、LogMessage、MessageTree）和二叉搜索树的插入/构建/遍历
+
+**02-ADTs 1.md** - CIS 194 ADT 讲义：FailableDouble、Person 等实例讲解代数数据类型、@ 模式、递归类型
+
+**Real-World-Haskell-02-03.md** - Real World Haskell 第 2、3 章中文翻译：类型系统与自定义类型
 
 <!-- INDEX:END -->
 
@@ -73,7 +79,9 @@ created: 2026-04-07
 | [[wiki/sources/lyah-chapter2]] | LYAH | 2026-04-09 |
 | [[wiki/sources/glasswing]] | Anthropic | 2026-04-09 |
 | [[wiki/sources/cis194-hw2]] | UPenn CIS194 | 2026-04-09 |
+| [[wiki/sources/cis194-lecture2-adts]] | UPenn CIS194 | 2026-04-09 |
+| [[wiki/sources/rwh-chapters-2-3]] | O'Reilly | 2026-04-09 |
 
 ---
 
-*最后更新: 2026-04-09*（ingest: 02-ADTs）
+*最后更新: 2026-04-10*（ingest: 02-ADTs 1 + RWH Ch.2-3）
