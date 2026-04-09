@@ -20,6 +20,7 @@ created: 2026-04-07
 | [[Clippings/Real-World-Haskell.md]] | O'Reilly | 2026-04-08 | #clippings #book #haskell |
 | [[Clippings/02. Ready Go - Learn You A Haskell for Great Good!]] | LYAH | 2026-04-08 | #clippings #haskell #tutorial |
 | [[Clippings/Project Glasswing Securing critical software for the AI era]] | Anthropic | 2026-04-08 | #clippings #ai #security |
+| [[Clippings/02-ADTs]] | UPenn CIS194 | 2026-04-09 | #clippings #haskell #adts |
 
 **01-intro** - Haskell 基础教程，介绍函数式编程、惰性求值、静态类型等核心概念
 
@@ -37,6 +38,8 @@ created: 2026-04-07
 
 **Project Glasswing** - Anthropic 联合多巨头发起的 AI 安全计划，用 Claude 发现零日漏洞
 
+**02-ADTs** - CIS 194 HW2：日志解析系统，练习代数数据类型（MessageType、LogMessage、MessageTree）和二叉搜索树的插入/构建/遍历
+
 <!-- INDEX:END -->
 
 ---
@@ -49,10 +52,10 @@ created: 2026-04-07
 |------|------|----------|
 | [[wiki/concepts/函数式编程]] | #concept #programming-paradigm | 2 |
 | [[wiki/concepts/类型系统]] | #concept #type-system | 3 |
-| [[wiki/concepts/递归]] | #concept #haskell #fundamental | 2 |
+| [[wiki/concepts/递归]] | #concept #haskell #fundamental | 3 |
 | [[wiki/concepts/类型推断]] | #concept #haskell #type-system | 2 |
 | [[wiki/concepts/模式匹配]] | #concept #haskell #syntax | 2 |
-| [[wiki/concepts/代数数据类型]] | #concept #haskell #type-system | 2 |
+| [[wiki/concepts/代数数据类型]] | #concept #haskell #type-system | 3 |
 | [[wiki/concepts/类型类]] | #concept #haskell #type-system | 2 |
 | [[wiki/concepts/纯函数]] | #concept #haskell #fp-core | 1 |
 | [[wiki/concepts/AI安全]] | #concept #ai #security | 1 |
@@ -69,7 +72,8 @@ created: 2026-04-07
 | [[wiki/sources/real-world-haskell]] | O'Reilly | 2026-04-08 |
 | [[wiki/sources/lyah-chapter2]] | LYAH | 2026-04-09 |
 | [[wiki/sources/glasswing]] | Anthropic | 2026-04-09 |
+| [[wiki/sources/cis194-hw2]] | UPenn CIS194 | 2026-04-09 |
 
 ---
 
-*最后更新: 2026-04-09*（lint 修复）
+*最后更新: 2026-04-09*（ingest: 02-ADTs）
