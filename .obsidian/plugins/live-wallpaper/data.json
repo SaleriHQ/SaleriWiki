@@ -1,7 +1,7 @@
 {
   "LatestVersion": "1.6.3",
   "currentWallpaper": {
-    "path": "plugins/live-wallpaper/wallpapers/active/normal/Wavy Grass 4K60FPS.mp4",
+    "path": "plugins/live-wallpaper/wallpapers/active/autoSwitch/Wavy Grass 4K60FPS.mp4",
     "type": "video",
     "zIndex": 4,
     "opacity": 21,
@@ -16,11 +16,11 @@
     "positionX": 50,
     "positionY": 50,
     "Scale": 1,
-    "Index": 0
+    "Index": 10
   },
   "globalConfig": {
     "config": {
-      "path": "plugins/live-wallpaper/wallpapers/active/normal/Wavy Grass 4K60FPS.mp4",
+      "path": "plugins/live-wallpaper/wallpapers/active/autoSwitch/Wavy Grass 4K60FPS.mp4",
       "type": "video",
       "zIndex": 4,
       "opacity": 21,
@@ -35,7 +35,7 @@
       "positionX": 50,
       "positionY": 50,
       "Scale": 1,
-      "Index": 0
+      "Index": 10
     },
     "enabled": true
   },
@@ -220,6 +220,24 @@
       "positionY": 50,
       "Scale": 1,
       "Index": 9
+    },
+    {
+      "path": "plugins/live-wallpaper/wallpapers/active/autoSwitch/Wavy Grass 4K60FPS.mp4",
+      "type": "video",
+      "zIndex": 5,
+      "opacity": 40,
+      "brightness": 100,
+      "blurRadius": 8,
+      "contrast": 100,
+      "playbackSpeed": 1,
+      "Reposition": false,
+      "Quality": false,
+      "useObjectFit": true,
+      "position": "Center",
+      "positionX": 50,
+      "positionY": 50,
+      "Scale": 1,
+      "Index": 10
     }
   ],
   "HistoryPaths": [
@@ -227,6 +245,16 @@
       "path": "plugins/live-wallpaper/wallpapers/history/Wavy Grass 4K60FPS.mp4",
       "type": "video",
       "fileName": "Wavy Grass 4K60FPS.mp4"
+    },
+    {
+      "path": "plugins/live-wallpaper/wallpapers/history/0001-0250.mp4",
+      "type": "video",
+      "fileName": "0001-0250.mp4"
+    },
+    {
+      "path": "plugins/live-wallpaper/wallpapers/history/0001-0251.mp4",
+      "type": "video",
+      "fileName": "0001-0251.mp4"
     },
     {
       "path": "plugins/live-wallpaper/wallpapers/history/ffxiv_dx11 2025-09-03 22-32-00.png",
@@ -255,7 +283,7 @@
   "ScheduledOptions": {
     "dayNightMode": false,
     "weekly": false,
-    "autoSwitch": false,
+    "autoSwitch": true,
     "dayStartTime": "08:00",
     "nightStartTime": "20:00",
     "intervalCheckTime": "00:10",
