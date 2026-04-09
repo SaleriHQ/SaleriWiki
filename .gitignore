@@ -1,0 +1,23 @@
+.claudian
+
+# Claude working files
+.claude/workspace/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files that should not be tracked
+# (We track log.md via git, but not session-level logs)
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Media (optional - uncomment if you don't want to track large files)
+# attachments/
+# *.png
+# *.jpg
+# *.pdf
