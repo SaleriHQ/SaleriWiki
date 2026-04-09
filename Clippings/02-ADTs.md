@@ -1,21 +1,21 @@
-# CIS 194: Homework 2 — Algebraic Data Types
+# CIS 194：第二次作业 — 代数数据类型
 
-> **Due:** Monday, January 28
-> **Files to submit:** `LogAnalysis.hs`
+> **截止日期：** 1 月 28 日，星期一
+> **提交文件：** `LogAnalysis.hs`
 
 ---
 
-## Log File Parsing
+## 日志文件解析
 
-The log file `error.log` consists of a different log message on each line. Each line begins with a character indicating the type of log message it represents:
+日志文件 `error.log` 每行包含一条日志消息。每行开头有一个字符表示日志类型：
 
-- `'I'` for informational messages
-- `'W'` for warnings
-- `'E'` for errors
+- `'I'` — 信息消息
+- `'W'` — 警告消息
+- `'E'` — 错误消息
 
-Error message lines have an integer indicating the severity of the error (1–100), followed by an integer timestamp and textual content that runs to the end of the line.
+错误消息行还有一个整数表示错误级别（1–100），1 表示"也许明年夏天会处理"的无关紧要错误，100 表示"灾难性重大故障"。所有类型的日志消息都有一个整数时间戳，后跟至行尾的文本内容。
 
-### Data Types
+### 数据类型
 
 ```haskell
 data MessageType
@@ -32,17 +32,17 @@ data LogMessage
     deriving (Show, Eq)
 ```
 
-Note that `LogMessage` has two constructors: one to represent normally-formatted log messages, and one (`Unknown`) to represent anything else that does not fit the proper format.
+注意 `LogMessage` 有两个构造器：一个用于表示格式正常的日志消息，另一个（`Unknown`）用于表示任何不符合格式的内容。
 
-### Exercise 1 — `parseMessage`
+### 练习 1 — `parseMessage`
 
-Define a function that parses an individual line from the log file:
+定义一个函数，解析日志文件中的单行内容：
 
 ```haskell
 parseMessage :: String -> LogMessage
 ```
 
-**Examples:**
+**示例：**
 
 ```haskell
 parseMessage "E 2 562 help help"
@@ -55,76 +55,78 @@ parseMessage "This is not in the right format"
     == Unknown "This is not in the right format"
 ```
 
-Then define a function to parse an entire log file:
+再定义一个函数，解析整个日志文件：
 
 ```haskell
 parse :: String -> [LogMessage]
 ```
 
-Use `read`, `lines`, `words`, `unwords`, `take`, `drop`, and function composition (`.`) — don't reinvent the wheel!
+使用 `read`、`lines`、`words`、`unwords`、`take`、`drop` 和函数复合（`.`）—— 不要重复造轮子！
 
 ---
 
-## Putting the Logs in Order
+## 将日志排序
 
-Log messages are horribly out of order. We use a binary search tree to organize them:
+由于多台服务器、闪电风暴、磁盘故障和一个无聊又不称职的程序员的共同作用，日志消息的顺序完全乱了。在整理之前，根本无法理清发生了什么。我们设计了一个数据结构来帮助处理——日志消息的二叉搜索树：
 
 ```haskell
 data MessageTree = Leaf
     | Node MessageTree LogMessage MessageTree
 ```
 
-A `MessageTree` is sorted by timestamp: timestamps in any `Node` should be greater than all timestamps in the left subtree, and less than all timestamps in the right child. `Unknown` messages should **not** be stored in a `MessageTree` since they lack a timestamp.
+`MessageTree` 是递归数据类型：`Node` 构造器本身接受两个子节点（左、右子树）和一个 `LogMessage`。`Leaf` 表示空树。
 
-### Exercise 2 — `insert`
+`MessageTree` 按时间戳排序：任何 `Node` 中的 `LogMessage` 的时间戳应大于左子树中所有消息的时间戳，并小于右子树中所有消息的时间戳。`Unknown` 消息**不应**存储在 `MessageTree` 中，因为它们没有时间戳。
+
+### 练习 2 — `insert`
 
 ```haskell
 insert :: LogMessage -> MessageTree -> MessageTree
 ```
 
-Insert a new `LogMessage` into an existing sorted `MessageTree`, producing a new sorted `MessageTree`. If the message is `Unknown`, return the tree unchanged.
+将一个新的 `LogMessage` 插入现有的有序 `MessageTree`，返回一个新的有序 `MessageTree`。如果消息是 `Unknown`，则返回树本身不变。
 
-### Exercise 3 — `build`
+### 练习 3 — `build`
 
 ```haskell
 build :: [LogMessage] -> MessageTree
 ```
 
-Build a complete `MessageTree` from a list of messages by successively inserting them (starting with `Leaf`).
+通过依次插入（从 `Leaf` 开始），从消息列表构建完整的 `MessageTree`。
 
-### Exercise 4 — `inOrder`
+### 练习 4 — `inOrder`
 
 ```haskell
 inOrder :: MessageTree -> [LogMessage]
 ```
 
-Take a sorted `MessageTree` and produce a list of all `LogMessage`s it contains, sorted by timestamp from smallest to biggest. (This is an in-order traversal of the tree.)
+接收一个有序的 `MessageTree`，返回其中所有 `LogMessage` 按时间戳从小到大排列的列表。（这就是二叉树的中序遍历。）
 
-Sort and remove unknown messages with:
+用以下表达式排序并过滤掉未知消息：
 
 ```haskell
 inOrder (build tree)
 ```
 
-> Note: There are much better ways to sort a list; this is just an exercise to get you working with recursive data structures!
+> 注意：排序列表有更好的方法；这里只是练习递归数据结构的题目！
 
 ---
 
-## Log File Postmortem
+## 事后分析
 
-### Exercise 5 — `whatWentWrong`
+### 练习 5 — `whatWentWrong`
 
-"Relevant" means "errors with a severity of at least 50."
+"相关"定义为"严重级别至少为 50 的错误"。
 
 ```haskell
 whatWentWrong :: [LogMessage] -> [String]
 ```
 
-Takes an **unsorted** list of `LogMessage`s and returns a list of messages corresponding to any errors with severity ≥ 50, sorted by timestamp.
+接收一个**未排序**的 `LogMessage` 列表，返回所有严重级别 ≥ 50 的错误消息文本，按时间戳排序。
 
-**Example:**
+**示例：**
 
-Given this log file:
+给定以下日志文件：
 
 ```
 I 6 Completed armadillo processing
@@ -140,7 +142,7 @@ E 20 2 Too many pickles
 I 9 Back from lunch
 ```
 
-The output of `whatWentWrong` should be:
+`whatWentWrong` 的输出应为：
 
 ```haskell
 [ "Way too many pickles"
@@ -151,15 +153,15 @@ The output of `whatWentWrong` should be:
 
 ---
 
-## Miscellaneous
+## 注意事项
 
-- We will test your solution on log files other than the ones we have given you, so **no hardcoding!**
-- You are free (in fact, encouraged) to discuss the assignment with any of your classmates as long as you type up your own solution.
+- 我们会用你们没有见过的日志文件测试你的解决方案，所以**不要硬编码！**
+- 我们鼓励（事实上非常鼓励）你和同学讨论作业，但必须自己动手写代码。
 
 ---
 
-## Epilogue
+## 尾声
 
-### Exercise 6 (Optional)
+### 练习 6（选做）
 
-For various reasons we are beginning to suspect that the recent mess was caused by a single, egotistical hacker. Can you figure out who did it?
+由于种种原因，我们开始怀疑这场混乱是由一个自大的黑客引起的。你能找到是谁干的吗？
