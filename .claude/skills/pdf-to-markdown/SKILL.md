@@ -82,7 +82,7 @@ uvx 'markitdown\[all]' <path-to-file> -o output.md
 
 ```bash
 
-uvx 'markitdown\[pdf]' report.pdf -o report.md
+uvx 'markitdown\[pdf]' report.pdf -o report_pdf.md
 
 uvx 'markitdown\[pptx]' slides.pptx -o slides.md
 
@@ -98,5 +98,5 @@ uvx 'markitdown\[docx]' document.docx -o document.md
 
 \- If you were asked to save the output to a specific file, save it to the requested file using `-o`.
 
-\- If no output file was specified, use the source filename with a `.md` suffix.
+\- If no output file was specified, use the source filename with `_pdf.md` suffix (e.g., `123.pdf` → `123_pdf.md`).
 
