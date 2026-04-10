@@ -82,6 +82,9 @@ created: 2026-04-07
 | [[wiki/concepts/AI安全]] | #concept #ai #security | 1 |
 | [[wiki/concepts/零日漏洞]] | #concept #security #vulnerability | 1 |
 | [[wiki/concepts/Neovim-0.12-Configuration]] | #concept #neovim #editor #configuration | 2 |
+| [[wiki/concepts/多态]] | #concept #haskell #type-system | 1 |
+| [[wiki/concepts/全函数与偏函数]] | #concept #haskell #safety | 1 |
+| [[wiki/concepts/Maybe]] | #concept #haskell #type-system | 1 |
 
 ### 来源摘要
 
@@ -99,7 +102,8 @@ created: 2026-04-07
 | [[wiki/sources/rwh-chapters-2-3]] | O'Reilly | 2026-04-09 |
 | [[wiki/sources/vim-pack-guide]] | echasnovski.com | 2026-04-10 |
 | [[wiki/sources/minimax-config]] | nvim-mini.org | 2026-04-10 |
+| [[wiki/sources/cis194-lecture3-rec-poly]] | UPenn CIS194 | 2026-04-10 |
 
 ---
 
-*最后更新: 2026-04-10*（ingest: vim.pack 深度指南 + MiniMax 配置来源）
+*最后更新: 2026-04-10*（ingest: CIS194 L3 递归与多态 + 多态/全函数/Maybe 概念页）
