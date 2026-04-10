@@ -27,6 +27,7 @@ created: 2026-04-07
 | [[Clippings/03-rec-poly.md]] | UPenn CIS194 | 2026-04-10 | #clippings #haskell #recursion #polymorphism |
 | [[Clippings/Neovim-0.12-Minimal-Config.md]] | YouTube/Theo | 2026-04-10 | #clippings #neovim #vim #tutorial |
 | [[Clippings/A Guide to vim.pack (Neovim built-in plugin manager).md]] | Echasnovski | 2026-04-10 | #clippings #neovim #plugin #vim.pack |
+| [[Clippings/MiniMax config nvim-0.12.md]] | nvim-mini.org | 2026-04-10 | #clippings #neovim #configuration #mini.nvim |
 
 **01-intro-full.md** - CIS194 HW1 完整版：信用卡验证算法（Luhn's algorithm），练习 digits、doubleEveryOther、toDigitsRev、validCreditCard 等函数实现
 
@@ -57,6 +58,8 @@ created: 2026-04-07
 **Neovim-0.12-Minimal-Config.md** - Neovim 0.12 极简配置教程（62分钟），使用10个插件打造高效编辑器，包含LSP支持、linting、格式化、代码补全
 
 **A Guide to vim.pack...** - Neovim 0.12 内置插件管理器 vim.pack 深度指南（mini.nvim 作者撰写）：工作原理、Lockfile、Hooks、Lazy Loading 及从 mini.deps/lazy.nvim 迁移指南
+
+**MiniMax config nvim-0.12.md** - 模块化 Neovim 0.12 配置示例：vim.pack + mini.nvim，30+ 插件模块，完整的键映射体系，适合作为个人配置的起点
 
 <!-- INDEX:END -->
 
@@ -95,7 +98,8 @@ created: 2026-04-07
 | [[wiki/sources/cis194-lecture2-adts]] | UPenn CIS194 | 2026-04-09 |
 | [[wiki/sources/rwh-chapters-2-3]] | O'Reilly | 2026-04-09 |
 | [[wiki/sources/vim-pack-guide]] | echasnovski.com | 2026-04-10 |
+| [[wiki/sources/minimax-config]] | nvim-mini.org | 2026-04-10 |
 
 ---
 
-*最后更新: 2026-04-10*（ingest: vim.pack 深度指南 + Neovim 配置来源更新）
+*最后更新: 2026-04-10*（ingest: vim.pack 深度指南 + MiniMax 配置来源）
