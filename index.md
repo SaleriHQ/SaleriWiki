@@ -26,6 +26,7 @@ created: 2026-04-07
 | [[Clippings/Real-World-Haskell-02-03.md]] | O'Reilly | 2026-04-09 | #clippings #haskell #book |
 | [[Clippings/03-rec-poly.md]] | UPenn CIS194 | 2026-04-10 | #clippings #haskell #recursion #polymorphism |
 | [[Clippings/Neovim-0.12-Minimal-Config.md]] | YouTube/Theo | 2026-04-10 | #clippings #neovim #vim #tutorial |
+| [[Clippings/A Guide to vim.pack (Neovim built-in plugin manager).md]] | Echasnovski | 2026-04-10 | #clippings #neovim #plugin #vim.pack |
 
 **01-intro-full.md** - CIS194 HW1 完整版：信用卡验证算法（Luhn's algorithm），练习 digits、doubleEveryOther、toDigitsRev、validCreditCard 等函数实现
 
@@ -54,6 +55,8 @@ created: 2026-04-07
 **03-rec-poly.md** - CIS194 递归与多态讲义：Map、Filter、Fold 抽象模式，多态数据类型与函数，Prelude 常用函数，全函数与偏函数
 
 **Neovim-0.12-Minimal-Config.md** - Neovim 0.12 极简配置教程（62分钟），使用10个插件打造高效编辑器，包含LSP支持、linting、格式化、代码补全
+
+**A Guide to vim.pack...** - Neovim 0.12 内置插件管理器 vim.pack 深度指南（mini.nvim 作者撰写）：工作原理、Lockfile、Hooks、Lazy Loading 及从 mini.deps/lazy.nvim 迁移指南
 
 <!-- INDEX:END -->
 
@@ -91,7 +94,8 @@ created: 2026-04-07
 | [[wiki/sources/cis194-hw2]] | UPenn CIS194 | 2026-04-09 |
 | [[wiki/sources/cis194-lecture2-adts]] | UPenn CIS194 | 2026-04-09 |
 | [[wiki/sources/rwh-chapters-2-3]] | O'Reilly | 2026-04-09 |
+| [[wiki/sources/vim-pack-guide]] | echasnovski.com | 2026-04-10 |
 
 ---
 
-*最后更新: 2026-04-10*（翻译: 03-rec-poly + ingest: Neovim 0.12 配置教程）
+*最后更新: 2026-04-10*（ingest: vim.pack 深度指南 + Neovim 配置来源更新）

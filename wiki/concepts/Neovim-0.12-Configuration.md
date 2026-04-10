@@ -7,9 +7,10 @@ tags:
   - neovim
   - editor
   - configuration
-sources: 4
+sources: 5
 related:
   - "[[Clippings/Neovim-0.12-Minimal-Config]]"
+  - "[[wiki/sources/vim-pack-guide]]"
 ---
 
 # Neovim 0.12 配置指南
