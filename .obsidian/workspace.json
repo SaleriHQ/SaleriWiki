@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c1279f0c17c28e5b",
+        "id": "c69705b2656ff618",
         "type": "tabs",
         "children": [
           {
-            "id": "d88d33fbed646996",
+            "id": "925cd7f18fdd2790",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "wiki/sources/vim-pack-guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "vim-pack-guide"
             }
           }
         ]
@@ -66,7 +66,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 210.5
   },
   "right": {
     "id": "44d8217378ada5b9",
@@ -143,23 +142,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/02-ADTs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "02-ADTs 的大纲"
+              "title": "大纲"
             }
           },
           {
-            "id": "9601a6cf9ef3369c",
+            "id": "41690df788e5d264",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "claudian-view",
               "state": {},
-              "pinned": true,
               "icon": "bot",
               "title": "Claudian"
             }
@@ -169,51 +165,53 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 349.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:打开命令面板": false,
       "claudian:Open Claudian": false,
+      "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false
     }
   },
-  "active": "d88d33fbed646996",
+  "active": "41690df788e5d264",
   "lastOpenFiles": [
-    "index.md.tmp.32080.1775750456303",
-    "wiki/sources/rwh-chapters-2-3.md",
-    "wiki/sources/cis194-lecture2-adts.md",
-    "index.md",
-    "CLAUDE.md",
-    "Clippings/Real-World-Haskell-02-03.md",
-    "Clippings/02-ADTs.md",
-    "wiki/concepts/标准库函数.md",
-    "wiki/concepts/零日漏洞.md",
-    "wiki/concepts/类型类.md",
-    "wiki/concepts/代数数据类型.md",
+    "wiki/concepts/Maybe.md",
+    "wiki/concepts/全函数与偏函数.md",
+    "wiki/concepts/多态.md",
+    "wiki/sources/cis194-lecture3-rec-poly.md",
+    "Clippings/03-rec-poly.md",
+    "Clippings/Recursion patterns, polymorphism, and the Prelude.md",
+    "Clippings/03-rec-poly_pdf.md",
+    "Clippings/03-rec-poly.pdf",
+    "未命名.md",
+    "Clippings/VideoVTT/「新」诡镇奇谈，登场！Allin or Nothing开箱～氪金得豪华桌游配件体验【林林总总】.md",
+    "Clippings/01-intro.pdf",
+    "Clippings/VideoVTT/归档/NeoVim 0.12 Finally Gives You a Real Plugin Manager.md",
+    "Clippings/the-mind-behind-linux-linus-torvalds-ted.md",
+    "Clippings/VideoVTT/归档/YouTube Video- The Mind Behind Linux - Linus Torvalds - TED - YouTube.md",
+    "Clippings/VideoVTT/YouTube Video- The Mind Behind Linux - Linus Torvalds - TED - YouTube.md",
+    "Clippings/Untitled.md",
+    "RSS articles/Being surrounded by puppies all.md",
+    "RSS articles",
+    "Clippings/NeoVim-0.12-vim.pack-Tutorial.md",
+    "CyberAgent moves faster with ChatGPT Enterprise and Codex.md",
+    "Clippings/VideoVTT/归档/NeoVim 0.12 Finally Gives You a Real Plugin Manager.txt",
+    "Clippings/VideoVTT/归档",
     "Clippings/02. Ready Go - Learn You A Haskell for Great Good!.md",
     "Clippings/02-ADTs 1.md",
+    "Clippings/llm-wiki.md",
+    "Clippings/VideoVTT/NeoVim 0.12 Finally Gives You a Real Plugin Manager.txt",
+    "Clippings/VideoVTT/NeoVim 0.12 Finally Gives You a Real Plugin Manager.txt.crdownload",
+    "Clippings/VideoVTT/445b95b8-8009-4a6d-b838-a4ead9630c79.tmp",
+    "Clippings/VideoVTT/Could This Idea from Sydney Change Your Life  TED Idea Search.txt",
+    "Clippings/VideoVTT/Could This Idea from Sydney Change Your Life  TED Idea Search.txt.crdownload",
+    "Clippings/01-intro.md",
     "wiki/concepts/类型系统.md",
     "wiki/concepts/模式匹配.md",
-    "wiki/sources/cis194-hw2.md",
-    "Clippings/Transform Your Neovim into an IDE A Step-by-Step Guide (Neovim v0.12).md",
-    "wiki/sources/haskellwiki-quickstart.md",
-    "wiki/sources/real-world-haskell.md",
-    "Clippings/Real-World-Haskell.md",
-    "FilePath.md",
-    "Clippings/02-ADTs.pdf",
-    "CLAUDE.md.tmp.3168.1775719747212",
-    "log.md",
-    "wiki/concepts/纯函数.md",
-    "wiki/concepts/AI安全.md",
+    "wiki/concepts/Neovim-0.12-Configuration.md",
+    "Clippings/Neovim-0.12-Minimal-Config.md",
     "wiki/concepts/函数式编程.md",
-    "wiki/concepts/类型推断.md",
-    "index.md.tmp.32728.1775718614317",
-    "00",
-    "Clippings/01-intro.pdf",
-    "Plan",
-    "Clippings/Real World Haskell .pdf",
-    "MYDOC",
     "Clippings/assets/5045594024cd4dcacf604158b5cdbc3fce7a42e1-250x250.webp",
     "Clippings/assets/72189ac0907cf1fccf3b11553289490c41891293-250x250.webp",
     "Clippings/assets/337ec3073e807548e9254096b073de0df47ed6dc-250x250.webp",
@@ -223,8 +221,6 @@
     "Clippings/assets/a891afd7a10fae83d723c246d560da2b1bda45b9-249x84.svg",
     "Clippings/assets/512d82c580c9317a77b9f1bcd505f84f14eb603f-375x54.svg",
     "Clippings/assets/d8f863db0d3fac7838bd2ac4b566bab6ac8fb697-245x83.svg",
-    "Clippings/assets/186a43fd79b2a941acbc7e4d7dfa2d17d42fc2f8-376x67.svg",
-    "Clippings/Real World Haskell (Bryan OSullivan, John Goerzen, Don Stewart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "wiki/notes"
+    "Clippings/assets/186a43fd79b2a941acbc7e4d7dfa2d17d42fc2f8-376x67.svg"
   ]
 }
