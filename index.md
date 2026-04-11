@@ -9,11 +9,35 @@ created: 2026-04-07
 
 ## 📁 Clippings
 
+> **所有 Clippings 文章的统一入口** → [[Clippings/INDEX]]
+
+### 分类概览
+
+| 分类 | 说明 |
+|------|------|
+| [[Haskell]] | Haskell 语言学习（CIS194 课程、LYAH、RWH） |
+| [[Neovim]] | Neovim/Vim 配置教程（vim.pack、mini.nvim） |
+| [[AI]] | AI 与安全（Glasswing 项目） |
+| [[视频]] | 视频字幕转换文章（TED 访谈、技术教程） |
+
+### 最近添加
+
+```dataview
+TABLE
+  file.link AS "文章",
+  category AS "分类",
+  created AS "日期"
+FROM "Clippings"
+WHERE type = "clipping"
+SORT created DESC
+LIMIT 10
+```
+
 <!-- INDEX:START -->
 
 | 文件 | 来源 | 日期 | 标签 |
 |------|------|------|------|
-| [[Clippings/01-intro-full.md]] | UPenn CIS194 | 2026-04-10 | #clippings #haskell #homework |
+| [[01-intro_pdf]] | UPenn CIS194 | 2026-04-10 | #clippings #haskell #homework |
 | [[Clippings/01-intro]] | UPenn CIS194 | 2026-04-08 | #clippings #haskell #fp |
 | [[Clippings/01-intro.pdf]] | UPenn CIS194 | 2026-04-08 | #clippings #haskell #pdf |
 | [[Clippings/Cn十分钟学会 Haskell - HaskellWiki]] | Haskell Wiki | 2026-04-07 | #clippings #haskell |
@@ -21,13 +45,43 @@ created: 2026-04-07
 | [[Clippings/Real-World-Haskell.md]] | O'Reilly | 2026-04-08 | #clippings #book #haskell |
 | [[Clippings/02. Ready Go - Learn You A Haskell for Great Good!]] | LYAH | 2026-04-08 | #clippings #haskell #tutorial |
 | [[Clippings/Project Glasswing Securing critical software for the AI era]] | Anthropic | 2026-04-08 | #clippings #ai #security |
-| [[Clippings/02-ADTs]] | UPenn CIS194 | 2026-04-09 | #clippings #haskell #adts |
-| [[Clippings/02-ADTs 1.md]] | UPenn CIS194 | 2026-04-09 | #clippings #haskell #lecture |
+| [[02-ADTs_pdf]] | UPenn CIS194 | 2026-04-09 | #clippings #haskell #adts |
+| [[02-ADTs]] | UPenn CIS194 | 2026-04-09 | #clippings #haskell #lecture |
 | [[Clippings/Real-World-Haskell-02-03.md]] | O'Reilly | 2026-04-09 | #clippings #haskell #book |
 | [[Clippings/03-rec-poly.md]] | UPenn CIS194 | 2026-04-10 | #clippings #haskell #recursion #polymorphism |
 | [[Clippings/Neovim-0.12-Minimal-Config.md]] | YouTube/Theo | 2026-04-10 | #clippings #neovim #vim #tutorial |
 | [[Clippings/A Guide to vim.pack (Neovim built-in plugin manager).md]] | Echasnovski | 2026-04-10 | #clippings #neovim #plugin #vim.pack |
 | [[Clippings/MiniMax config nvim-0.12.md]] | nvim-mini.org | 2026-04-10 | #clippings #neovim #configuration #mini.nvim |
+| [[Clippings/obsidian-dataview-plugin-guide.md]] | YouTube/Paul Dickson | 2026-04-11 | #clippings #obsidian #dataview #plugin |
+| [[Clippings/elon-musk-ted-2022-interview.md]] | TED 2022 | 2026-04-11 | #clippings #elon-musk #ted #future #spacex #tesla |
+| [[Clippings/RWH-Chapters-zh/第01章-入门]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第02章-类型与函数]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第03章-定义类型、简化函数]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第04章-函数式编程]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第05章-编写库-处理JSON数据]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第06章-使用类型类]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第07章-输入输出]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第08章-高效文件处理]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第09章-案例研究-文件系统搜索库]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第10章-案例研究-解析二进制数据格式]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第11章-测试与质量保证]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第12章-条形码识别]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第13章-数据结构]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第14章-单子]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第15章-使用单子编程]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第16章-使用Parsec]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第17章-与C接口-FFI]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第18章-单子转换器]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第19章-错误处理]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第20章-系统编程]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第21章-使用数据库]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第22章-Web客户端编程]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第23章-GUI编程]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第24章-并发与多核编程]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第25章-性能分析与优化]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第26章-布隆过滤器]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第27章-套接字与系统日志]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/RWH-Chapters-zh/第28章-软件事务内存]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
 
 **01-intro-full.md** - CIS194 HW1 完整版：信用卡验证算法（Luhn's algorithm），练习 digits、doubleEveryOther、toDigitsRev、validCreditCard 等函数实现
 
@@ -60,6 +114,12 @@ created: 2026-04-07
 **A Guide to vim.pack...** - Neovim 0.12 内置插件管理器 vim.pack 深度指南（mini.nvim 作者撰写）：工作原理、Lockfile、Hooks、Lazy Loading 及从 mini.deps/lazy.nvim 迁移指南
 
 **MiniMax config nvim-0.12.md** - 模块化 Neovim 0.12 配置示例：vim.pack + mini.nvim，30+ 插件模块，完整的键映射体系，适合作为个人配置的起点
+
+**obsidian-dataview-plugin-guide.md** - Paul Dickson 的 Dataview 插件完全指南：四种查询类型（LIST/TABLE/TASK/CALENDAR）、六个查询组件、YAML 最佳实践、进阶工作流和调试技巧
+
+**elon-musk-ted-2022-interview.md** - Elon Musk 2022 TED 访谈完整解读：可持续能源三要素、自动驾驶对数曲线、Optimus 人形机器人、Neuralink 脑机接口、Starship 星际文明，附跨领域协同效应分析
+
+> 更多筛选功能请查看 [[Clippings/INDEX]]
 
 <!-- INDEX:END -->
 
@@ -103,7 +163,35 @@ created: 2026-04-07
 | [[wiki/sources/vim-pack-guide]] | echasnovski.com | 2026-04-10 |
 | [[wiki/sources/minimax-config]] | nvim-mini.org | 2026-04-10 |
 | [[wiki/sources/cis194-lecture3-rec-poly]] | UPenn CIS194 | 2026-04-10 |
+| [[wiki/sources/rwh-chapter-01]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-02]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-03]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-04]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-05]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-06]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-07]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-08]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-09]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-10]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-11]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-12]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-13]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-14]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-15]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-16]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-17]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-18]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-19]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-20]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-21]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-22]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-23]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-24]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-25]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-26]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-27]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/rwh-chapter-28]] | O'Reilly | 2026-04-11 |
 
 ---
 
-*最后更新: 2026-04-10*（ingest: CIS194 L3 递归与多态 + 多态/全函数/Maybe 概念页）
+*最后更新: 2026-04-11*（refactor: 统一 Clippings front matter + 创建 Dataview 索引）
