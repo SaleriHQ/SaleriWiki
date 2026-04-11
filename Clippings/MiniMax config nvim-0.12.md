@@ -1,12 +1,17 @@
 ---
-title: "MiniMax config nvim-0.12"
-source: "https://nvim-mini.org/MiniMax/configs/nvim-0.12/?utm_source=chatgpt.com"
-author:
-published:
+title: "MiniMax Neovim 0.12 配置"
+source: "https://nvim-mini.org/MiniMax/configs/nvim-0.12/"
+author: "nvim-mini"
 created: 2026-04-10
-description: "Modular Independent Neovim Improvements"
+type: clipping
+category: neovim
+description: "模块化 Neovim 0.12 配置示例：vim.pack + mini.nvim"
 tags:
-  - "clippings"
+  - clippings
+  - neovim
+  - vim
+  - mini.nvim
+  - configuration
 ---
 *Generated from the `main` branch of ‘MiniMax’*
 

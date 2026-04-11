@@ -1,14 +1,18 @@
 ---
-title: "CIS 194 作业 3：代码高尔夫"
+title: "CIS194 HW3: 代码高尔夫"
 source: "CIS 194: Introduction to Haskell"
+author: "Brent Yorgey"
 created: 2026-04-10
-type: homework
+type: clipping
+category: haskell
+description: "CIS194 作业 3：递归与多态代码练习"
 tags:
+  - clippings
   - haskell
   - cis194
   - homework
-  - 递归
-  - 多态
+  - recursion
+  - polymorphism
 ---
 
 # CIS 194 作业 3 — 代码高尔夫（Code Golf）

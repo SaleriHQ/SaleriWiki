@@ -1,15 +1,18 @@
 ---
-title: "Neovim 0.12 内置插件管理器 vim.pack 深度指南"
-source: https://www.youtube.com/watch?v=NeoVim-0.12-vimack
-author: Marco
+title: "Neovim 0.12 vim.pack 视频教程"
+source: "https://www.youtube.com/watch?v=NeoVim-0.12-vimack"
+author: "Marco"
 created: 2026-04-10
-type: source
+type: clipping
+category: neovim
+description: "NeoVim 0.12 内置插件管理器 vim.pack 视频教程"
 tags:
+  - clippings
   - neovim
   - vim
   - vim.pack
-  - plugin-manager
-  - 插件管理
+  - video
+  - tutorial
 ---
 
 # Neovim 0.12 内置插件管理器 vim.pack 深度指南

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c69705b2656ff618",
+        "id": "6ef483dfd63d1d66",
         "type": "tabs",
         "children": [
           {
-            "id": "925cd7f18fdd2790",
+            "id": "0895bdc1fe2d8e77",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/sources/vim-pack-guide.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "vim-pack-guide"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 290.5110321044922
   },
   "right": {
     "id": "44d8217378ada5b9",
@@ -165,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 370.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,44 +170,44 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "41690df788e5d264",
+  "active": "0895bdc1fe2d8e77",
   "lastOpenFiles": [
-    "wiki/concepts/Maybe.md",
-    "wiki/concepts/全函数与偏函数.md",
-    "wiki/concepts/多态.md",
-    "wiki/sources/cis194-lecture3-rec-poly.md",
-    "Clippings/03-rec-poly.md",
-    "Clippings/Recursion patterns, polymorphism, and the Prelude.md",
-    "Clippings/03-rec-poly_pdf.md",
-    "Clippings/03-rec-poly.pdf",
-    "未命名.md",
-    "Clippings/VideoVTT/「新」诡镇奇谈，登场！Allin or Nothing开箱～氪金得豪华桌游配件体验【林林总总】.md",
-    "Clippings/01-intro.pdf",
-    "Clippings/VideoVTT/归档/NeoVim 0.12 Finally Gives You a Real Plugin Manager.md",
+    "Clippings/Project Glasswing Securing critical software for the AI era.md",
+    "Clippings/INDEX.md",
+    "index.md",
+    "CLAUDE.md",
+    "wiki/sources/rwh-chapter-04.md",
+    "wiki/sources/rwh-chapter-15.md",
+    "wiki/sources/rwh-chapter-26.md",
+    "wiki/sources/rwh-chapter-27.md",
+    "wiki/sources/rwh-chapter-28.md",
+    "wiki/sources/vim-pack-guide.md",
     "Clippings/the-mind-behind-linux-linus-torvalds-ted.md",
-    "Clippings/VideoVTT/归档/YouTube Video- The Mind Behind Linux - Linus Torvalds - TED - YouTube.md",
-    "Clippings/VideoVTT/YouTube Video- The Mind Behind Linux - Linus Torvalds - TED - YouTube.md",
-    "Clippings/Untitled.md",
-    "RSS articles/Being surrounded by puppies all.md",
-    "RSS articles",
-    "Clippings/NeoVim-0.12-vim.pack-Tutorial.md",
-    "CyberAgent moves faster with ChatGPT Enterprise and Codex.md",
-    "Clippings/VideoVTT/归档/NeoVim 0.12 Finally Gives You a Real Plugin Manager.txt",
-    "Clippings/VideoVTT/归档",
-    "Clippings/02. Ready Go - Learn You A Haskell for Great Good!.md",
-    "Clippings/02-ADTs 1.md",
-    "Clippings/llm-wiki.md",
-    "Clippings/VideoVTT/NeoVim 0.12 Finally Gives You a Real Plugin Manager.txt",
-    "Clippings/VideoVTT/NeoVim 0.12 Finally Gives You a Real Plugin Manager.txt.crdownload",
-    "Clippings/VideoVTT/445b95b8-8009-4a6d-b838-a4ead9630c79.tmp",
-    "Clippings/VideoVTT/Could This Idea from Sydney Change Your Life  TED Idea Search.txt",
-    "Clippings/VideoVTT/Could This Idea from Sydney Change Your Life  TED Idea Search.txt.crdownload",
-    "Clippings/01-intro.md",
-    "wiki/concepts/类型系统.md",
-    "wiki/concepts/模式匹配.md",
-    "wiki/concepts/Neovim-0.12-Configuration.md",
-    "Clippings/Neovim-0.12-Minimal-Config.md",
-    "wiki/concepts/函数式编程.md",
+    "wiki/sources/rwh-chapter-25.md",
+    "wiki/sources/rwh-chapter-24.md",
+    "wiki/sources/rwh-chapter-23.md",
+    "wiki/sources/rwh-chapter-22.md",
+    "wiki/sources/rwh-chapter-21.md",
+    "wiki/sources/rwh-chapter-20.md",
+    "wiki/sources/rwh-chapter-19.md",
+    "wiki/sources/rwh-chapter-18.md",
+    "wiki/sources/rwh-chapter-17.md",
+    "wiki/sources/rwh-chapter-16.md",
+    "wiki/sources/rwh-chapter-14.md",
+    "wiki/sources/rwh-chapter-13.md",
+    "wiki/sources/rwh-chapter-12.md",
+    "wiki/sources/rwh-chapter-11.md",
+    "Clippings/obsidian-dataview-plugin-guide.md",
+    "Clippings/RWH-Chapters-zh/sedskoIbw",
+    "Clippings/RWH-Chapters-zh/seduSRkqw",
+    "Clippings/RWH-Chapters-zh/sedTOZSfp",
+    "Clippings/RWH-Chapters-zh/sedWW7XLO",
+    "Clippings/RWH-Chapters-zh/sedYGweBA",
+    "Clippings/RWH-Chapters-zh/sed9dyW0Q",
+    "Clippings/RWH-Chapters-zh/sed7DZXlO",
+    "Clippings/RWH-Chapters-zh/sedEUuK5p",
+    "Clippings/RWH-Chapters-zh/sedbbNCf4",
+    "Clippings/RWH-Chapters-zh/sedJgM5Hi",
     "Clippings/assets/5045594024cd4dcacf604158b5cdbc3fce7a42e1-250x250.webp",
     "Clippings/assets/72189ac0907cf1fccf3b11553289490c41891293-250x250.webp",
     "Clippings/assets/337ec3073e807548e9254096b073de0df47ed6dc-250x250.webp",

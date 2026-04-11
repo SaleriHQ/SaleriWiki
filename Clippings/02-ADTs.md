@@ -1,167 +1,261 @@
-# CIS 194：第二次作业 — 代数数据类型
+---
+title: "CIS194 Lecture 2: 代数数据类型"
+source: "https://www.seas.upenn.edu/~cis1940/spring13/lectures/02-ADTs.html"
+author: "Brent Yorgey"
+created: 2026-04-09
+type: clipping
+category: haskell
+description: "CIS194 第二课：代数数据类型（ADT）、模式匹配、递归类型"
+tags:
+  - clippings
+  - haskell
+  - cis194
+  - lecture
+  - adt
+---
+Algebraic data types ====================
 
-> **截止日期：** 1 月 28 日，星期一
-> **提交文件：** `LogAnalysis.hs`
+Suggested reading:
+
+- [Real World Haskell](http://book.realworldhaskell.org/), chapters 2 and 3
+
+## Enumeration types
+
+Like many programming languages, Haskell allows programmers to create their own *enumeration* types. Here’s a simple example:
+
+```haskell
+data Thing = Shoe 
+           | Ship 
+           | SealingWax 
+           | Cabbage 
+           | King
+  deriving Show
+```
+
+This declares a new type called `Thing` with five *data constructors* `Shoe`, `Ship`, etc. which are the (only) values of type `Thing`. (The `deriving Show` is a magical incantation which tells GHC to automatically generate default code for converting `Thing` s to `String` s. This is what `ghci` uses when printing the value of an expression of type `Thing`.)
+
+```haskell
+shoe :: Thing
+shoe = Shoe
+
+listO'Things :: [Thing]
+listO'Things = [Shoe, SealingWax, King, Cabbage, King]
+```
+
+We can write functions on `Thing` s by *pattern-matching*.
+
+```haskell
+isSmall :: Thing -> Bool
+isSmall Shoe       = True
+isSmall Ship       = False
+isSmall SealingWax = True
+isSmall Cabbage    = True
+isSmall King       = False
+```
+
+Recalling how function clauses are tried in order from top to bottom, we could also make the definition of `isSmall` a bit shorter like so:
+
+```haskell
+isSmall2 :: Thing -> Bool
+isSmall2 Ship = False
+isSmall2 King = False
+isSmall2 _    = True
+```
+
+## Beyond enumerations
+
+`Thing` is an *enumeration type*, similar to those provided by other languages such as Java or C++. However, enumerations are actually only a special case of Haskell’s more general *algebraic data types*. As a first example of a data type which is not just an enumeration, consider the definition of `FailableDouble`:
+
+```haskell
+data FailableDouble = Failure
+                    | OK Double
+  deriving Show
+```
+
+This says that the `FailableDouble` type has two data constructors. The first one, `Failure`, takes no arguments, so `Failure` by itself is a value of type `FailableDouble`. The second one, `OK`, takes an argument of type `Double`. So `OK` by itself is not a value of type `FailableDouble`; we need to give it a `Double`. For example, `OK 3.4` is a value of type `FailableDouble`.
+
+```haskell
+ex01 = Failure
+ex02 = OK 3.4
+```
+
+Thought exercise: what is the type of `OK`?
+
+```haskell
+safeDiv :: Double -> Double -> FailableDouble
+safeDiv _ 0 = Failure
+safeDiv x y = OK (x / y)
+```
+
+More pattern-matching! Notice how in the `OK` case we can give a name to the `Double` that comes along with it.
+
+```haskell
+failureToZero :: FailableDouble -> Double
+failureToZero Failure = 0
+failureToZero (OK d)  = d
+```
+
+Data constructors can have more than one argument.
+
+```haskell
+-- Store a person's name, age, and favourite Thing.
+data Person = Person String Int Thing
+  deriving Show
+
+brent :: Person
+brent = Person "Brent" 31 SealingWax
+
+stan :: Person
+stan  = Person "Stan" 94 Cabbage
+
+getAge :: Person -> Int
+getAge (Person _ a _) = a
+```
+
+Notice how the type constructor and data constructor are both named `Person`, but they inhabit different namespaces and are different things. This idiom (giving the type and data constructor of a one-constructor type the same name) is common, but can be confusing until you get used to it.
+
+## Algebraic data types in general
+
+In general, an algebraic data type has one or more data constructors, and each data constructor can have zero or more arguments.
+
+```
+data AlgDataType = Constr1 Type11 Type12
+                 | Constr2 Type21
+                 | Constr3 Type31 Type32 Type33
+                 | Constr4
+```
+
+This specifies that a value of type `AlgDataType` can be constructed in one of four ways: using `Constr1`, `Constr2`, `Constr3`, or `Constr4`. Depending on the constructor used, an `AlgDataType` value may contain some other values. For example, if it was constructed using `Constr1`, then it comes along with two values, one of type `Type11` and one of type `Type12`.
+
+One final note: type and data constructor names must always start with a capital letter; variables (including names of functions) must always start with a lowercase letter. (Otherwise, Haskell parsers would have quite a difficult job figuring out which names represent variables and which represent constructors).
+
+## Pattern-matching
+
+We’ve seen pattern-matching in a few specific cases, but let’s see how pattern-matching works in general. Fundamentally, pattern-matching is about taking apart a value by *finding out which constructor* it was built with. This information can be used as the basis for deciding what to do—indeed, in Haskell, this is the *only* way to make a decision.
+
+For example, to decide what to do with a value of type `AlgDataType` (the made-up type defined in the previous section), we could write something like
+
+```
+foo (Constr1 a b)   = ...
+foo (Constr2 a)     = ...
+foo (Constr3 a b c) = ...
+foo Constr4         = ...
+```
+
+Note how we also get to give names to the values that come along with each constructor. Note also that parentheses are required around patterns consisting of more than just a single constructor.
+
+This is the main idea behind patterns, but there are a few more things to note.
+
+1. An underscore `_` can be used as a “wildcard pattern” which matches anything.
+2. A pattern of the form `x@pat` can be used to match a value against the pattern `pat`, but *also* give the name `x` to the entire value being matched. For example:
+	```haskell
+	baz :: Person -> String
+	baz p@(Person n _ _) = "The name field of (" ++ show p ++ ") is " ++ n
+	```
+	```
+	*Main> baz brent
+	"The name field of (Person \"Brent\" 31 SealingWax) is Brent"
+	```
+3. Patterns can be *nested*. For example:
+	```haskell
+	checkFav :: Person -> String
+	checkFav (Person n _ SealingWax) = n ++ ", you're my kind of person!"
+	checkFav (Person n _ _)          = n ++ ", your favorite thing is lame."
+	```
+	```
+	*Main> checkFav brent
+	"Brent, you're my kind of person!"
+	*Main> checkFav stan
+	"Stan, your favorite thing is lame."
+	```
+	Note how we nest the pattern `SealingWax` inside the pattern for `Person`.
+
+In general, the following grammar defines what can be used as a pattern:
+
+```
+pat ::= _
+     |  var
+     |  var @ ( pat )
+     |  ( Constructor pat1 pat2 ... patn )
+```
+
+The first line says that an underscore is a pattern. The second line says that a variable by itself is a pattern: such a pattern matches anything, and “binds” the given variable name to the matched value. The third line specifies `@` -patterns. The last line says that a constructor name followed by a sequence of patterns is itself a pattern: such a pattern matches a value if that value was constructed using the given constructor, *and* `pat1` through `patn` all match the values contained by the constructor, recursively.
+
+(In actual fact, the full grammar of patterns includes yet more features still, but the rest would take us too far afield for now.)
+
+Note that literal values like `2` or `'c'` can be thought of as constructors with no arguments. It is as if the types `Int` and `Char` were defined like
+
+```
+data Int  = 0 | 1 | -1 | 2 | -2 | ...
+data Char = 'a' | 'b' | 'c' | ...
+```
+
+which means that we can pattern-match against literal values. (Of course, `Int` and `Char` are not *actually* defined this way.)
+
+## Case expressions
+
+The fundamental construct for doing pattern-matching in Haskell is the `case` expression. In general, a `case` expression looks like
+
+```
+case exp of
+  pat1 -> exp1
+  pat2 -> exp2
+  ...
+```
+
+When evaluated, the expression `exp` is matched against each of the patterns `pat1`, `pat2`, … in turn. The first matching pattern is chosen, and the entire `case` expression evaluates to the expression corresponding to the matching pattern. For example,
+
+```haskell
+ex03 = case "Hello" of
+           []      -> 3
+           ('H':s) -> length s
+           _       -> 7
+```
+
+evaluates to `4` (the second pattern is chosen; the third pattern matches too, of course, but it is never reached).
+
+In fact, the syntax for defining functions we have seen is really just convenient syntax sugar for defining a `case` expression. For example, the definition of `failureToZero` given previously can equivalently be written as
+
+```haskell
+failureToZero' :: FailableDouble -> Double
+failureToZero' x = case x of
+                     Failure -> 0
+                     OK d    -> d
+```
+
+## Recursive data types
+
+Data types can be *recursive*, that is, defined in terms of themselves. In fact, we have already seen a recursive type—the type of lists. A list is either empty, or a single element followed by a remaining list. We could define our own list type like so:
+
+```haskell
+data IntList = Empty | Cons Int IntList
+```
+
+Haskell’s own built-in lists are quite similar; they just get to use special built-in syntax (`[]` and `:`). (Of course, they also work for any type of elements instead of just `Int` s; more on this next week.)
+
+We often use recursive functions to process recursive data types:
+
+```haskell
+intListProd :: IntList -> Int
+intListProd Empty      = 1
+intListProd (Cons x l) = x * intListProd l
+```
+
+As another simple example, we can define a type of binary trees with an `Int` value stored at each internal node, and a `Char` stored at each leaf:
+
+```haskell
+data Tree = Leaf Char
+          | Node Tree Int Tree
+  deriving Show
+```
+
+(Don’t ask me what you would use such a tree for; it’s an example, OK?) For example,
+
+```haskell
+tree :: Tree
+tree = Node (Leaf 'x') 1 (Node (Leaf 'y') 2 (Leaf 'z'))
+```
 
 ---
 
-## 日志文件解析
-
-日志文件 `error.log` 每行包含一条日志消息。每行开头有一个字符表示日志类型：
-
-- `'I'` — 信息消息
-- `'W'` — 警告消息
-- `'E'` — 错误消息
-
-错误消息行还有一个整数表示错误级别（1–100），1 表示"也许明年夏天会处理"的无关紧要错误，100 表示"灾难性重大故障"。所有类型的日志消息都有一个整数时间戳，后跟至行尾的文本内容。
-
-### 数据类型
-
-```haskell
-data MessageType
-    = Info
-    | Warning
-    | Error Int
-    deriving (Show, Eq)
-
-type TimeStamp = Int
-
-data LogMessage
-    = LogMessage MessageType TimeStamp String
-    | Unknown String
-    deriving (Show, Eq)
-```
-
-注意 `LogMessage` 有两个构造器：一个用于表示格式正常的日志消息，另一个（`Unknown`）用于表示任何不符合格式的内容。
-
-### 练习 1 — `parseMessage`
-
-定义一个函数，解析日志文件中的单行内容：
-
-```haskell
-parseMessage :: String -> LogMessage
-```
-
-**示例：**
-
-```haskell
-parseMessage "E 2 562 help help"
-    == LogMessage (Error 2) 562 "help help"
-
-parseMessage "I 29 la la la"
-    == LogMessage Info 29 "la la la"
-
-parseMessage "This is not in the right format"
-    == Unknown "This is not in the right format"
-```
-
-再定义一个函数，解析整个日志文件：
-
-```haskell
-parse :: String -> [LogMessage]
-```
-
-使用 `read`、`lines`、`words`、`unwords`、`take`、`drop` 和函数复合（`.`）—— 不要重复造轮子！
-
----
-
-## 将日志排序
-
-由于多台服务器、闪电风暴、磁盘故障和一个无聊又不称职的程序员的共同作用，日志消息的顺序完全乱了。在整理之前，根本无法理清发生了什么。我们设计了一个数据结构来帮助处理——日志消息的二叉搜索树：
-
-```haskell
-data MessageTree = Leaf
-    | Node MessageTree LogMessage MessageTree
-```
-
-`MessageTree` 是递归数据类型：`Node` 构造器本身接受两个子节点（左、右子树）和一个 `LogMessage`。`Leaf` 表示空树。
-
-`MessageTree` 按时间戳排序：任何 `Node` 中的 `LogMessage` 的时间戳应大于左子树中所有消息的时间戳，并小于右子树中所有消息的时间戳。`Unknown` 消息**不应**存储在 `MessageTree` 中，因为它们没有时间戳。
-
-### 练习 2 — `insert`
-
-```haskell
-insert :: LogMessage -> MessageTree -> MessageTree
-```
-
-将一个新的 `LogMessage` 插入现有的有序 `MessageTree`，返回一个新的有序 `MessageTree`。如果消息是 `Unknown`，则返回树本身不变。
-
-### 练习 3 — `build`
-
-```haskell
-build :: [LogMessage] -> MessageTree
-```
-
-通过依次插入（从 `Leaf` 开始），从消息列表构建完整的 `MessageTree`。
-
-### 练习 4 — `inOrder`
-
-```haskell
-inOrder :: MessageTree -> [LogMessage]
-```
-
-接收一个有序的 `MessageTree`，返回其中所有 `LogMessage` 按时间戳从小到大排列的列表。（这就是二叉树的中序遍历。）
-
-用以下表达式排序并过滤掉未知消息：
-
-```haskell
-inOrder (build tree)
-```
-
-> 注意：排序列表有更好的方法；这里只是练习递归数据结构的题目！
-
----
-
-## 事后分析
-
-### 练习 5 — `whatWentWrong`
-
-"相关"定义为"严重级别至少为 50 的错误"。
-
-```haskell
-whatWentWrong :: [LogMessage] -> [String]
-```
-
-接收一个**未排序**的 `LogMessage` 列表，返回所有严重级别 ≥ 50 的错误消息文本，按时间戳排序。
-
-**示例：**
-
-给定以下日志文件：
-
-```
-I 6 Completed armadillo processing
-I 1 Nothing to report
-E 99 10 Flange failed!
-I 4 Everything normal
-I 11 Initiating self-destruct sequence
-E 70 3 Way too many pickles
-E 65 8 Bad pickle-flange interaction detected
-W 5 Flange is due for a check-up
-I 7 Out for lunch, back in two time steps
-E 20 2 Too many pickles
-I 9 Back from lunch
-```
-
-`whatWentWrong` 的输出应为：
-
-```haskell
-[ "Way too many pickles"
-, "Bad pickle-flange interaction detected"
-, "Flange failed!"
-]
-```
-
----
-
-## 注意事项
-
-- 我们会用你们没有见过的日志文件测试你的解决方案，所以**不要硬编码！**
-- 我们鼓励（事实上非常鼓励）你和同学讨论作业，但必须自己动手写代码。
-
----
-
-## 尾声
-
-### 练习 6（选做）
-
-由于种种原因，我们开始怀疑这场混乱是由一个自大的黑客引起的。你能找到是谁干的吗？
+`Generated 2013-03-14 14:39:58.373475`

@@ -1,12 +1,15 @@
 ---
 title: "llm-wiki"
 source: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
-author:
-published:
+author: "Andrej Karpathy"
 created: 2026-04-08
-description: "llm-wiki. GitHub Gist: instantly share code, notes, and snippets."
+type: clipping
+category: llm
+description: "LLM-Wiki 模式：利用大型语言模型构建个人知识库"
 tags:
-  - "clippings"
+  - clippings
+  - llm
+  - knowledge-management
 ---
 ## LLM Wiki 大型语言模型维基
 

@@ -1,12 +1,16 @@
 ---
-title: "01-intro"
+title: "CIS194 Lecture 1: Introduction to Haskell"
 source: "https://www.seas.upenn.edu/~cis1940/spring13/lectures/01-intro.html"
-author:
-published:
+author: "Brent Yorgey"
 created: 2026-04-08
-description:
+type: clipping
+category: haskell
+description: "CIS194 第一课：Haskell 基础入门"
 tags:
-  - "clippings"
+  - clippings
+  - haskell
+  - cis194
+  - lecture
 ---
 ## Haskell Basics
 

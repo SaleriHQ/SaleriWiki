@@ -1,13 +1,17 @@
 ---
-title: "A Guide to vim.pack (Neovim built-in plugin manager)"
-source: "https://echasnovski.com/blog/2026-03-13-a-guide-to-vim-pack.html?utm_source=chatgpt.com"
-author:
-  - "[[Evgeni Chasnovski]]"
-published:
+title: "vim.pack 完全指南"
+source: "https://echasnovski.com/blog/2026-03-13-a-guide-to-vim-pack.html"
+author: "Evgeni Chasnovski"
 created: 2026-04-10
-description: "A somewhat concise yet comprehensive guide to vim.pack: how it works and how to use it"
+type: clipping
+category: neovim
+description: "mini.nvim 作者撰写的 vim.pack 深度指南：工作原理、Lockfile、Hooks"
 tags:
-  - "clippings"
+  - clippings
+  - neovim
+  - vim
+  - vim.pack
+  - plugin-manager
 ---
 [neovim](https://echasnovski.com/blog.html#category=neovim)
 

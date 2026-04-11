@@ -1,15 +1,18 @@
 ---
-title: "Linux 之父的思维：Linus Torvalds TED 访谈"
+title: "Linus Torvalds TED 访谈"
 source: "https://www.youtube.com/watch?v=o8NPllzkFhE"
 author: "Chris Anderson & Linus Torvalds"
 created: 2026-04-10
-type: source
+type: clipping
+category: video
+description: "Linux 之父 Linus Torvalds TED 访谈：开源思维、Git 起源、技术哲学"
 tags:
-  - linux
-  - git
-  - open-source
-  - interview
+  - clippings
+  - video
   - ted
+  - interview
+  - linux
+  - open-source
   - linus-torvalds
   - software-engineering
   - video

@@ -1,12 +1,16 @@
 ---
-title: "Project Glasswing: Securing critical software for the AI era"
+title: "Project Glasswing: AI 时代的软件安全"
 source: "https://www.anthropic.com/glasswing"
-author:
-published:
+author: "Anthropic"
 created: 2026-04-08
-description: "A new initiative to secure the world’s most critical software and give defenders a durable advantage in the coming AI-driven era of cybersecurity."
+type: clipping
+category: ai
+description: "Anthropic 联合多巨头发起的 AI 安全计划，用 Claude 发现零日漏洞"
 tags:
-  - "clippings"
+  - clippings
+  - ai
+  - security
+  - glasswing
 ---
 ## Project Glasswing 玻璃翼计划
 

@@ -1,14 +1,17 @@
 ---
-title: "Neovim 0.12 极简配置教程 - 10个插件打造高效编辑器"
-source: https://www.youtube.com/watch?v=lljs_7xB7Ps
-author: Theo
+title: "Neovim 0.12 极简配置教程"
+source: "https://www.youtube.com/watch?v=lljs_7xB7Ps"
+author: "Theo"
 created: 2026-04-10
-type: source
+type: clipping
+category: neovim
+description: "Neovim 0.12 极简配置教程：10个插件打造高效编辑器"
 tags:
+  - clippings
   - neovim
   - vim
-  - editor
   - tutorial
+  - lsp
 ---
 
 # Neovim 0.12 极简配置教程

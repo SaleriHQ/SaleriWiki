@@ -1,12 +1,18 @@
 ---
-title: "03-rec-poly"
+title: "CIS194 Lecture 3: 递归、多态与 Prelude"
 source: "https://www.seas.upenn.edu/~cis1940/spring13/lectures/03-rec-poly.html"
-author:
-published:
+author: "Brent Yorgey"
 created: 2026-04-10
-description:
+type: clipping
+category: haskell
+description: "CIS194 第三课：递归模式、多态性、Map/Filter/Fold 抽象"
 tags:
-  - "clippings"
+  - clippings
+  - haskell
+  - cis194
+  - lecture
+  - recursion
+  - polymorphism
 ---
 ## Recursion patterns, polymorphism, and the Prelude
 

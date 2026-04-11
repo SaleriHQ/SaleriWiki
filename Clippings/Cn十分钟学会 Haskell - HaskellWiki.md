@@ -1,12 +1,16 @@
 ---
-title: "Cn/十分钟学会 Haskell - HaskellWiki"
+title: "十分钟学会 Haskell"
 source: "https://wiki.haskell.org/Cn/%E5%8D%81%E5%88%86%E9%92%9F%E5%AD%A6%E4%BC%9A_Haskell"
-author:
-published:
+author: "Haskell Wiki"
 created: 2026-04-07
-description:
+type: clipping
+category: haskell
+description: "Haskell 语言快速入门教程"
 tags:
-  - "clippings"
+  - clippings
+  - haskell
+  - tutorial
+  - quickstart
 ---
 ## 概要
 
