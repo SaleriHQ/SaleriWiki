@@ -68,4 +68,5 @@ runMyMonad cfg st m =
 此章节涉及:
 - [[wiki/concepts/单子]]
 - [[wiki/concepts/IO Monad]]
+- [[wiki/concepts/Monad变换器]]
 - [[wiki/concepts/类型类]]

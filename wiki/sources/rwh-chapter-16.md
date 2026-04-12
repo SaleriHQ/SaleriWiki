@@ -14,6 +14,7 @@ tags:
 related:
   - "[[wiki/concepts/单子]]"
   - "[[wiki/concepts/类型类]]"
+  - "[[wiki/concepts/Parsec]]"
 ---
 
 # RWH 第16章-使用Parsec

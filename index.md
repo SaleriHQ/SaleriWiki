@@ -155,6 +155,11 @@ LIMIT 10
 | [[wiki/concepts/多态]] | #concept #haskell #type-system | 1 |
 | [[wiki/concepts/全函数与偏函数]] | #concept #haskell #safety | 1 |
 | [[wiki/concepts/Maybe]] | #concept #haskell #type-system | 1 |
+| [[wiki/concepts/IO Monad]] | #concept #haskell #monad #io | 1 |
+| [[wiki/concepts/Either]] | #concept #haskell #monad #error | 1 |
+| [[wiki/concepts/Monad变换器]] | #concept #haskell #monad #transformer | 1 |
+| [[wiki/concepts/Applicative]] | #concept #haskell #applicative | 1 |
+| [[wiki/concepts/Parsec]] | #concept #haskell #parsing | 1 |
 | [[wiki/concepts/Proton-CachyOS]] | #concept #gaming #cachyos #proton | 1 |
 | [[wiki/concepts/Linux游戏优化]] | #concept #gaming #linux #performance | 1 |
 | [[wiki/concepts/Lutris]] | #concept #gaming #linux #launcher | 1 |

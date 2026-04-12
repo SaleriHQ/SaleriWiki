@@ -67,4 +67,7 @@ do { m; e }         ===  m >> e
 此章节涉及:
 - [[wiki/concepts/单子]]
 - [[wiki/concepts/IO Monad]]
+- [[wiki/concepts/Maybe]]
+- [[wiki/concepts/Either]]
+- [[wiki/concepts/Applicative]]
 - [[wiki/concepts/类型类]]

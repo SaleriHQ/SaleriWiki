@@ -73,3 +73,5 @@ class Monad m => MonadError e m | m -> e where
 - [[wiki/concepts/单子]]
 - [[wiki/concepts/代数数据类型]]
 - [[wiki/concepts/IO Monad]]
+- [[wiki/concepts/Either]]
+- [[wiki/concepts/Maybe]]
