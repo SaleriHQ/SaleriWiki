@@ -86,6 +86,9 @@ LIMIT 10
 | [[Clippings/ibhagwanfzf-lua Improved fzf.vim written in lua]] | GitHub/ibhagwan | 2026-04-12 | #clippings #neovim #fuzzy-search #lua |
 | [[Clippings/Gaming with CachyOS Guide]] | CachyOS Wiki | 2026-04-12 | #clippings #gaming #cachyos #linux |
 | [[Clippings/CachyOS 游戏指南]] | CachyOS Wiki | 2026-04-12 | #clippings #gaming #cachyos #linux #翻译 |
+| [[Clippings/Lsp]] | vieitesss.github.io | 2026-04-12 | #clippings #neovim #lsp |
+| [[Clippings/Minimal Neovim config v0.12 edition]] | vieitesss.github.io | 2026-04-12 | #clippings #neovim #configuration |
+| [[Clippings/leap.nvim]] | Codeberg/andyg | 2026-04-12 | #clippings #neovim #motion #plugin |
 
 **01-intro-full.md** - CIS194 HW1 完整版：信用卡验证算法（Luhn's algorithm），练习 digits、doubleEveryOther、toDigitsRev、validCreditCard 等函数实现
 
@@ -203,7 +206,10 @@ LIMIT 10
 | [[wiki/sources/rwh-chapter-27]] | O'Reilly | 2026-04-11 |
 | [[wiki/sources/rwh-chapter-28]] | O'Reilly | 2026-04-11 |
 | [[wiki/sources/cachy-gaming]] | wiki.cachyos.org | 2026-04-12 |
+| [[wiki/sources/minimal-neovim-v0.12-config]] | vieitesss.github.io | 2026-04-12 |
+| [[wiki/sources/fzf-lua]] | github.com/ibhagwan | 2026-04-12 |
+| [[wiki/sources/leap-nvim]] | codeberg.org/andyg | 2026-04-12 |
 
 ---
 
-*最后更新: 2026-04-12*（ingest: CachyOS Gaming Guide + 翻译）
+*最后更新: 2026-04-12*（ingest: Neovim 插件 Clippings）
