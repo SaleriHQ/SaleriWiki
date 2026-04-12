@@ -154,6 +154,7 @@ LIMIT 10
 | [[wiki/concepts/Maybe]] | #concept #haskell #type-system | 1 |
 | [[wiki/concepts/Proton-CachyOS]] | #concept #gaming #cachyos #proton | 1 |
 | [[wiki/concepts/Linux游戏优化]] | #concept #gaming #linux #performance | 1 |
+| [[wiki/concepts/Lutris]] | #concept #gaming #linux #launcher | 1 |
 
 ### 来源摘要
 
@@ -204,4 +205,4 @@ LIMIT 10
 
 ---
 
-*最后更新: 2026-04-12*（ingest: CachyOS Gaming Guide + Proton-CachyOS + Linux游戏优化）
+*最后更新: 2026-04-12*（ingest: CachyOS Gaming Guide + Proton-CachyOS + Linux游戏优化 + Lutris）
