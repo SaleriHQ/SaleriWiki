@@ -85,6 +85,7 @@ LIMIT 10
 | [[Clippings/fzf.vim]] | GitHub/junegunn | 2026-04-12 | #clippings #vim #neovim #fuzzy-search #plugin |
 | [[Clippings/ibhagwanfzf-lua Improved fzf.vim written in lua]] | GitHub/ibhagwan | 2026-04-12 | #clippings #neovim #fuzzy-search #lua |
 | [[Clippings/Gaming with CachyOS Guide]] | CachyOS Wiki | 2026-04-12 | #clippings #gaming #cachyos #linux |
+| [[Clippings/CachyOS 游戏指南]] | CachyOS Wiki | 2026-04-12 | #clippings #gaming #cachyos #linux #翻译 |
 
 **01-intro-full.md** - CIS194 HW1 完整版：信用卡验证算法（Luhn's algorithm），练习 digits、doubleEveryOther、toDigitsRev、validCreditCard 等函数实现
 
@@ -205,4 +206,4 @@ LIMIT 10
 
 ---
 
-*最后更新: 2026-04-12*（ingest: CachyOS Gaming Guide + Proton-CachyOS + Linux游戏优化 + Lutris）
+*最后更新: 2026-04-12*（ingest: CachyOS Gaming Guide + 翻译）
