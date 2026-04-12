@@ -149,7 +149,6 @@ LIMIT 10
 | [[wiki/concepts/模式匹配]] | #concept #haskell #syntax | 2 |
 | [[wiki/concepts/代数数据类型]] | #concept #haskell #type-system | 3 |
 | [[wiki/concepts/类型类]] | #concept #haskell #type-system | 2 |
-| [[wiki/concepts/纯函数]] | #concept #haskell #fp-core | 1 |
 | [[wiki/concepts/AI安全]] | #concept #ai #security | 1 |
 | [[wiki/concepts/零日漏洞]] | #concept #security #vulnerability | 1 |
 | [[wiki/concepts/Neovim-0.12-Configuration]] | #concept #neovim #editor #configuration | 2 |
