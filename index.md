@@ -82,6 +82,9 @@ LIMIT 10
 | [[Clippings/RWH-Chapters-zh/第26章-布隆过滤器]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
 | [[Clippings/RWH-Chapters-zh/第27章-套接字与系统日志]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
 | [[Clippings/RWH-Chapters-zh/第28章-软件事务内存]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
+| [[Clippings/fzf.vim]] | GitHub/junegunn | 2026-04-12 | #clippings #vim #neovim #fuzzy-search #plugin |
+| [[Clippings/ibhagwanfzf-lua Improved fzf.vim written in lua]] | GitHub/ibhagwan | 2026-04-12 | #clippings #neovim #fuzzy-search #lua |
+| [[Clippings/Gaming with CachyOS Guide]] | CachyOS Wiki | 2026-04-12 | #clippings #gaming #cachyos #linux |
 
 **01-intro-full.md** - CIS194 HW1 完整版：信用卡验证算法（Luhn's algorithm），练习 digits、doubleEveryOther、toDigitsRev、validCreditCard 等函数实现
 
@@ -119,6 +122,10 @@ LIMIT 10
 
 **elon-musk-ted-2022-interview.md** - Elon Musk 2022 TED 访谈完整解读：可持续能源三要素、自动驾驶对数曲线、Optimus 人形机器人、Neuralink 脑机接口、Starship 星际文明，附跨领域协同效应分析
 
+**fzf.vim** - junegunn 的 Vim 模糊搜索插件：文件搜索、缓冲区管理、Git 操作、代码搜索等，基于 fzf 核心，异步运行性能优异
+
+**fzf-lua** - ibhagwan 用 Lua 重写的现代化 fzf.vim：内置浮动窗口预览、LSP 集成、DAP 支持、多样化 Profiles，开箱即用
+
 > 更多筛选功能请查看 [[Clippings/INDEX]]
 
 <!-- INDEX:END -->
@@ -145,6 +152,8 @@ LIMIT 10
 | [[wiki/concepts/多态]] | #concept #haskell #type-system | 1 |
 | [[wiki/concepts/全函数与偏函数]] | #concept #haskell #safety | 1 |
 | [[wiki/concepts/Maybe]] | #concept #haskell #type-system | 1 |
+| [[wiki/concepts/Proton-CachyOS]] | #concept #gaming #cachyos #proton | 1 |
+| [[wiki/concepts/Linux游戏优化]] | #concept #gaming #linux #performance | 1 |
 
 ### 来源摘要
 
@@ -191,7 +200,8 @@ LIMIT 10
 | [[wiki/sources/rwh-chapter-26]] | O'Reilly | 2026-04-11 |
 | [[wiki/sources/rwh-chapter-27]] | O'Reilly | 2026-04-11 |
 | [[wiki/sources/rwh-chapter-28]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/cachy-gaming]] | wiki.cachyos.org | 2026-04-12 |
 
 ---
 
-*最后更新: 2026-04-11*（refactor: 统一 Clippings front matter + 创建 Dataview 索引）
+*最后更新: 2026-04-12*（ingest: CachyOS Gaming Guide + Proton-CachyOS + Linux游戏优化）
