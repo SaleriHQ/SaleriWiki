@@ -89,6 +89,7 @@ LIMIT 10
 | [[Clippings/Lsp]] | vieitesss.github.io | 2026-04-12 | #clippings #neovim #lsp |
 | [[Clippings/Minimal Neovim config v0.12 edition]] | vieitesss.github.io | 2026-04-12 | #clippings #neovim #configuration |
 | [[Clippings/leap.nvim]] | Codeberg/andyg | 2026-04-12 | #clippings #neovim #motion #plugin |
+| [[Clippings/Partnership through Play Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy]] | arXiv 2025 | 2026-04-13 | #clippings #HCI #long-distance #gaming #intimacy |
 
 **01-intro-full.md** - CIS194 HW1 完整版：信用卡验证算法（Luhn's algorithm），练习 digits、doubleEveryOther、toDigitsRev、validCreditCard 等函数实现
 
@@ -130,6 +131,8 @@ LIMIT 10
 
 **fzf-lua** - ibhagwan 用 Lua 重写的现代化 fzf.vim：内置浮动窗口预览、LSP 集成、DAP 支持、多样化 Profiles，开箱即用
 
+**Partnership through Play** - 华盛顿大学 HCI 研究：13 对远距离情侣如何使用数字游戏维持亲密关系。发现三种情侣玩家原型（合作优先型46%、平衡型38%、竞争优先型16%），以及游戏如何映射到关系维护策略。
+
 > 更多筛选功能请查看 [[Clippings/INDEX]]
 
 <!-- INDEX:END -->
@@ -163,6 +166,11 @@ LIMIT 10
 | [[wiki/concepts/Proton-CachyOS]] | #concept #gaming #cachyos #proton | 1 |
 | [[wiki/concepts/Linux游戏优化]] | #concept #gaming #linux #performance | 1 |
 | [[wiki/concepts/Lutris]] | #concept #gaming #linux #launcher | 1 |
+| [[wiki/concepts/远程亲密关系]] | #concept #HCI #social-computing #relationships | 1 |
+| [[wiki/concepts/关系维护策略]] | #concept #communication #relationships | 1 |
+| [[wiki/concepts/连接六维度]] | #concept #HCI #design #relatedness | 1 |
+| [[wiki/concepts/情侣玩家原型]] | #concept #HCI #game-design | 1 |
+| [[wiki/concepts/合作与竞争游戏]] | #concept #game-design #HCI #social-gaming | 1 |
 
 ### 来源摘要
 
@@ -213,7 +221,8 @@ LIMIT 10
 | [[wiki/sources/minimal-neovim-v0.12-config]] | vieitesss.github.io | 2026-04-12 |
 | [[wiki/sources/fzf-lua]] | github.com/ibhagwan | 2026-04-12 |
 | [[wiki/sources/leap-nvim]] | codeberg.org/andyg | 2026-04-12 |
+| [[wiki/sources/partnership-through-play]] | arxiv.org | 2026-04-13 |
 
 ---
 
-*最后更新: 2026-04-12*（ingest: Neovim 插件 Clippings）
+*最后更新: 2026-04-13*（ingest: Partnership through Play - 远距离情侣与数字游戏）
