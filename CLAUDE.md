@@ -14,16 +14,41 @@
 SalieriWiki/
 ├── index.md              # 总索引 - 所有页面的目录
 ├── CLAUDE.md             # 本文件 - 维基规范
-├── Clippings/            # 原始资料库（不可变）
+├── Clippings/           # 原始资料库（不可变）
 │   ├── 01-intro.md
+│   ├── RWH-Chapters-zh/ # Real World Haskell 中文翻译
+│   │   ├── 第01章-入门.md
+│   │   └── ...
 │   └── ...
 │
 └── wiki/                  # AI 生成和维护的维基
     ├── concepts/         # 概念页
     ├── entities/         # 实体页
-    ├── sources/          # 来源摘要
+    ├── sources/          # 来源摘要（镜像 Clippings 目录结构）
+    │   ├── RWH-Chapters-zh/
+    │   │   ├── 第01章-入门.md
+    │   │   └── ...
+    │   ├── cis194/       # UPenn CIS194 课程
+    │   ├── neovim/       # Neovim 配置教程
+    │   └── ...
     └── notes/            # 笔记和探索
 ```
+
+### sources 目录组织原则
+
+**来源摘要页必须镜像 Clippings 的目录结构**：
+
+| Clippings 路径 | sources 路径 |
+|----------------|--------------|
+| `Clippings/01-intro.md` | `wiki/sources/01-intro.md` |
+| `Clippings/RWH-Chapters-zh/第01章-入门.md` | `wiki/sources/RWH-Chapters-zh/第01章-入门.md` |
+| `Clippings/RWH-Chapters-zh/第02章-类型.md` | `wiki/sources/RWH-Chapters-zh/第02章-类型.md` |
+| `Clippings/cis194/01-intro.md`（如果有） | `wiki/sources/cis194/01-intro.md` |
+
+**命名规则**：
+- 单个文件：直接使用原文件名（保持中文命名）
+- 子目录：创建同名子目录，内部文件保持原名
+- 批量文件（如书籍章节）：在子目录内按原名组织
 
 ---
 
@@ -115,11 +140,26 @@ sources: 3
 当用户添加新来源时:
 
 1. **阅读来源** - 读取原始文件
-2. **讨论要点** - 与用户讨论关键收获
-3. **创建摘要页** - 在 `wiki/sources/` 创建摘要
-4. **更新相关页面** - 更新相关概念和实体页
-5. **更新索引** - 运行 `$index-clippings` 更新 index.md
-6. **Git 提交** - 使用 `ingest` 类型提交，commit message 格式见下方
+2. **分析结构** - 检查 Clippings 中的目录结构
+3. **创建子目录** - 如果 Clippings 有子目录，在 sources 创建同名子目录
+4. **创建摘要页** - 在对应的 `wiki/sources/` 位置创建摘要
+5. **更新相关页面** - 更新相关概念和实体页
+6. **更新索引** - 更新 index.md
+7. **Git 提交** - 使用 `ingest` 类型提交，commit message 格式见下方
+
+**示例 - 导入 RWH 章节**：
+```
+Clippings/RWH-Chapters-zh/第14章-单子.md
+    ↓ 创建目录 + 摘要
+wiki/sources/RWH-Chapters-zh/第14章-单子.md
+```
+
+**示例 - 导入单个文件**：
+```
+Clippings/Mathematics.md
+    ↓ 创建摘要
+wiki/sources/Mathematics.md
+```
 
 ### Query（查询）
 
@@ -169,6 +209,17 @@ ingest: Add Real World Haskell source
 - Updated: index.md
 ```
 
+**批量 ingest 示例**：
+```
+ingest: Add RWH Chapters 14-18
+
+- Clippings: RWH-Chapters-zh/第14-18章
+- Created: wiki/sources/RWH-Chapters-zh/第14章-单子.md
+- Created: wiki/sources/RWH-Chapters-zh/第15章-使用单子编程.md
+- ...
+- Updated: index.md
+```
+
 **lint 类型**:
 ```
 lint: Fix broken links and orphan pages
@@ -212,7 +263,7 @@ lint: Fix broken links and orphan pages
 <!-- INDEX:START -->
 | 文件 | 来源 | 日期 | 标签 |
 |------|------|------|------|
-| [[Clippings/xxx]] | 来源 | 日期 | #tag |
+| [[Clippings/RWH-Chapters-zh/第01章-入门]] | O'Reilly | 2026-04-11 | #clippings #haskell #rwh |
 
 描述...
 <!-- INDEX:END -->
@@ -227,7 +278,7 @@ lint: Fix broken links and orphan pages
 ### 来源摘要
 | 页面 | 原始来源 | 日期 |
 |------|----------|------|
-| [[wiki/sources/xxx]] | URL | 日期 |
+| [[wiki/sources/RWH-Chapters-zh/第01章-入门]] | O'Reilly | 2026-04-11 |
 ```
 
 ---
@@ -253,10 +304,11 @@ lint: Fix broken links and orphan pages
 ## 原则
 
 1. **原始资料不可变** - 永远不修改 Clippings/ 中的文件
-2. **AI 负责维护** - 用户只需提供来源和提问
-3. **索引保持最新** - 每次 ingest 后更新 index.md
-4. **Git 版本管理** - 所有修改通过 Git 提交，操作历史由 Git 管理
-5. **链接优先** - 使用 [[wikilinks]] 而非纯文本
+2. **目录结构镜像** - sources 必须镜像 Clippings 的目录结构
+3. **AI 负责维护** - 用户只需提供来源和提问
+4. **索引保持最新** - 每次 ingest 后更新 index.md
+5. **Git 版本管理** - 所有修改通过 Git 提交，操作历史由 Git 管理
+6. **链接优先** - 使用 [[wikilinks]] 而非纯文本
 
 ---
 

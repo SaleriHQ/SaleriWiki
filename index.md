@@ -173,57 +173,67 @@ LIMIT 10
 | 页面 | 原始来源 | 日期 |
 |------|----------|------|
 | [[wiki/sources/llm-wiki]] | gist.github.com/karpathy | 2026-04-08 |
-| [[wiki/sources/cis194-hw1]] | UPenn CIS194 | 2026-04-08 |
-| [[wiki/sources/cis194-lecture1]] | UPenn CIS194 | 2026-04-08 |
-| [[wiki/sources/haskellwiki-quickstart]] | Haskell Wiki | 2026-04-08 |
 | [[wiki/sources/real-world-haskell]] | O'Reilly | 2026-04-08 |
+| [[wiki/sources/haskellwiki-quickstart]] | Haskell Wiki | 2026-04-08 |
 | [[wiki/sources/lyah-chapter2]] | LYAH | 2026-04-09 |
 | [[wiki/sources/glasswing]] | Anthropic | 2026-04-09 |
-| [[wiki/sources/cis194-hw2]] | UPenn CIS194 | 2026-04-09 |
-| [[wiki/sources/cis194-lecture2-adts]] | UPenn CIS194 | 2026-04-09 |
-| [[wiki/sources/rwh-chapter-02]] | O'Reilly | 2026-04-09 |
-| [[wiki/sources/rwh-chapter-03]] | O'Reilly | 2026-04-09 |
-| [[wiki/sources/vim-pack-guide]] | echasnovski.com | 2026-04-10 |
-| [[wiki/sources/minimax-config]] | nvim-mini.org | 2026-04-10 |
-| [[wiki/sources/cis194-lecture3-rec-poly]] | UPenn CIS194 | 2026-04-10 |
-| [[wiki/sources/rwh-chapter-01]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-02]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-03]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-04]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-05]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-06]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-07]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-08]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-09]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-10]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-11]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-12]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-13]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-14]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-15]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-16]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-17]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-18]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-19]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-20]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-21]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-22]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-23]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-24]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-25]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-26]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-27]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/rwh-chapter-28]] | O'Reilly | 2026-04-11 |
-| [[wiki/sources/cachy-gaming]] | wiki.cachyos.org | 2026-04-12 |
-| [[wiki/sources/minimal-neovim-v0.12-config]] | vieitesss.github.io | 2026-04-12 |
-| [[wiki/sources/fzf-lua]] | github.com/ibhagwan | 2026-04-12 |
-| [[wiki/sources/leap-nvim]] | codeberg.org/andyg | 2026-04-12 |
 | [[wiki/sources/partnership-through-play]] | arxiv.org | 2026-04-13 |
 | [[wiki/sources/how-i-run-multiple-10k-mrr-companies]] | stevehanov.ca | 2026-04-21 |
 | [[wiki/sources/jujutsu-megamerges]] | isaaccorbrey.com | 2026-04-21 |
 | [[wiki/sources/cs-textbook-recommendations]] | 4chan-science | 2026-04-21 |
 | [[wiki/sources/physics-textbook-recommendations]] | 4chan-science | 2026-04-21 |
 | [[wiki/sources/math-textbook-recommendations]] | 4chan-science | 2026-04-21 |
+
+#### RWH-Chapters-zh
+| 页面 | 原始来源 | 日期 |
+|------|----------|------|
+| [[wiki/sources/RWH-Chapters-zh/第01章-入门]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第02章-类型与函数]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第03章-定义类型、简化函数]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第04章-函数式编程]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第05章-编写库-处理JSON数据]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第06章-使用类型类]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第07章-输入输出]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第08章-高效文件处理]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第09章-案例研究-文件系统搜索库]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第10章-案例研究-解析二进制数据格式]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第11章-测试与质量保证]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第12章-条形码识别]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第13章-数据结构]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第14章-单子]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第15章-使用单子编程]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第16章-使用Parsec]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第17章-与C接口-FFI]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第18章-单子转换器]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第19章-错误处理]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第20章-系统编程]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第21章-使用数据库]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第22章-Web客户端编程]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第23章-GUI编程]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第24章-并发与多核编程]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第25章-性能分析与优化]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第26章-布隆过滤器]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第27章-套接字与系统日志]] | O'Reilly | 2026-04-11 |
+| [[wiki/sources/RWH-Chapters-zh/第28章-软件事务内存]] | O'Reilly | 2026-04-11 |
+
+#### cis194
+| 页面 | 原始来源 | 日期 |
+|------|----------|------|
+| [[wiki/sources/cis194/cis194-hw1]] | UPenn CIS194 | 2026-04-08 |
+| [[wiki/sources/cis194/cis194-hw2]] | UPenn CIS194 | 2026-04-09 |
+| [[wiki/sources/cis194/cis194-lecture1]] | UPenn CIS194 | 2026-04-08 |
+| [[wiki/sources/cis194/cis194-lecture2-adts]] | UPenn CIS194 | 2026-04-09 |
+| [[wiki/sources/cis194/cis194-lecture3-rec-poly]] | UPenn CIS194 | 2026-04-10 |
+
+#### neovim
+| 页面 | 原始来源 | 日期 |
+|------|----------|------|
+| [[wiki/sources/neovim/vim-pack-guide]] | echasnovski.com | 2026-04-10 |
+| [[wiki/sources/neovim/minimax-config]] | nvim-mini.org | 2026-04-10 |
+| [[wiki/sources/neovim/minimal-neovim-v0.12-config]] | vieitesss.github.io | 2026-04-12 |
+| [[wiki/sources/neovim/fzf-lua]] | github.com/ibhagwan | 2026-04-12 |
+| [[wiki/sources/neovim/leap-nvim]] | codeberg.org/andyg | 2026-04-12 |
+| [[wiki/sources/neovim/cachy-gaming]] | wiki.cachyos.org | 2026-04-12 |
 
 ### 引导
 

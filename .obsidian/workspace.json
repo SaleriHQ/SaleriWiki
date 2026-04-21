@@ -4,49 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f414cd9b6876b4c4",
+        "id": "96a134c20640822e",
         "type": "tabs",
         "children": [
           {
-            "id": "55cbdefd6cb6ad47",
+            "id": "2ecbf748959ab28d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/RWH-Chapters-zh/第03章-定义类型、简化函数.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "第03章-定义类型、简化函数"
-            }
-          },
-          {
-            "id": "a3651056257a5caf",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://zh.wikipedia.org/wiki/%E5%87%B8%E5%8C%85",
-                "title": "凸包 - 维基百科，自由的百科全书",
-                "mode": "blank"
-              },
-              "icon": "globe-2",
-              "title": "凸包 - 维基百科，自由的百科全书"
-            }
-          },
-          {
-            "id": "35b8223f38f9fcad",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://zh.wikipedia.org/wiki/%E8%91%9B%E7%AB%8B%E6%81%86%E6%8E%83%E6%8F%8F%E6%B3%95",
-                "title": "葛立恒扫描法 - 维基百科，自由的百科全书",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "葛立恒扫描法 - 维基百科，自由的百科全书"
+              "title": "新标签页"
             }
           }
         ]
@@ -106,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5,
-    "collapsed": true
+    "width": 238.5110321044922
   },
   "right": {
     "id": "44d8217378ada5b9",
@@ -166,35 +133,38 @@
             }
           },
           {
-            "id": "f7c2a35f79ed4ebb",
+            "id": "16c4ee3b354f9047",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "pinned": true,
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "c4ae5192a6fc528e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Clippings/Physics Textbook Recommendations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "81d6eaf84ffd4597",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "title": "Physics Textbook Recommendations 的大纲"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 618.5
+    "width": 781.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,44 +173,44 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "81d6eaf84ffd4597",
+  "active": "2ecbf748959ab28d",
   "lastOpenFiles": [
-    "Clippings/RWH-Chapters-zh/第03章-定义类型、简化函数.md",
-    "wiki/concepts/标准库函数.md",
-    "Clippings/RWH-Chapters-zh/第02章-类型与函数.md",
-    "Clippings/RWH-Chapters-zh/第01章-入门.md",
-    "未命名.md",
-    "index.md",
-    "wiki/concepts/Lutris.md",
-    "wiki/concepts/全函数与偏函数.md",
-    "wiki/sources/rwh-chapter-16.md.tmp.376068.1776006974800",
-    "wiki/concepts/Parsec.md",
-    "wiki/concepts/Parsec.md.tmp.376068.1776006927188",
-    "wiki/concepts/Applicative.md",
-    "wiki/concepts/Applicative.md.tmp.376068.1776006875268",
+    "index.md.tmp.200314.1776785573924",
+    "CLAUDE.md.tmp.200314.1776785535886",
     "CLAUDE.md",
-    "wiki/concepts/Monad变换器.md",
-    "wiki/concepts/Monad变换器.md.tmp.376068.1776006824261",
-    "wiki/concepts/Either.md",
-    "wiki/concepts/IO Monad.md",
-    "wiki/concepts/IO Monad.md.tmp.376068.1776006724669",
-    "wiki/concepts/代数数据类型.md.tmp.376068.1776005923481",
-    "wiki/concepts/类型推断.md.tmp.376068.1776005905063",
-    "wiki/concepts/标准库函数.md.tmp.376068.1776005819901",
-    "index.md.tmp.376068.1776005788627",
-    "index.md.tmp.376068.1776005126911",
-    "wiki/sources/leap-nvim.md",
-    "wiki/sources/fzf-lua.md",
-    "wiki/sources/minimal-neovim-v0.12-config.md",
-    "Clippings/CachyOS 游戏指南.md",
-    "Clippings/Gaming with CachyOS Guide.md",
-    "Clippings/the-mind-behind-linux-linus-torvalds-ted.md",
-    "Clippings/Project Glasswing Securing critical software for the AI era.md",
-    "wiki/concepts/Linux游戏优化.md",
-    "wiki/concepts/Proton-CachyOS.md",
-    "wiki/sources/cachy-gaming.md",
-    "Clippings/Minimal Neovim config v0.12 edition.md",
-    "Clippings/Lsp.md",
+    "wikilinks.md",
+    "wiki/sources/RWH-Chapters-zh/第28章-软件事务内存.md",
+    "wiki/sources/RWH-Chapters-zh/第27章-套接字与系统日志.md",
+    "wiki/sources/RWH-Chapters-zh/第26章-布隆过滤器.md",
+    "wiki/sources/RWH-Chapters-zh/第25章-性能分析与优化.md",
+    "wiki/sources/RWH-Chapters-zh/第24章-并发与多核编程.md",
+    "wiki/sources/RWH-Chapters-zh/第23章-GUI编程.md",
+    "wiki/sources/RWH-Chapters-zh/第22章-Web客户端编程.md",
+    "wiki/sources/RWH-Chapters-zh/第21章-使用数据库.md",
+    "wiki/sources/RWH-Chapters-zh/第20章-系统编程.md",
+    "wiki/sources/RWH-Chapters-zh/第19章-错误处理.md",
+    "wiki/sources/RWH-Chapters-zh/第18章-单子转换器.md",
+    "wiki/sources/RWH-Chapters-zh/第17章-与C接口-FFI.md",
+    "wiki/sources/RWH-Chapters-zh/第16章-使用Parsec.md",
+    "wiki/sources/RWH-Chapters-zh/第15章-使用单子编程.md",
+    "wiki/sources/RWH-Chapters-zh/第14章-单子.md",
+    "wiki/sources/RWH-Chapters-zh/第13章-数据结构.md",
+    "wiki/sources/RWH-Chapters-zh/第12章-条形码识别.md",
+    "wiki/sources/RWH-Chapters-zh/第11章-测试与质量保证.md",
+    "wiki/sources/RWH-Chapters-zh/第10章-案例研究-解析二进制数据格式.md",
+    "wiki/sources/RWH-Chapters-zh/第09章-案例研究-文件系统搜索库.md",
+    "wiki/sources/RWH-Chapters-zh/第08章-高效文件处理.md",
+    "wiki/sources/RWH-Chapters-zh/第07章-输入输出.md",
+    "wiki/sources/RWH-Chapters-zh/第06章-使用类型类.md",
+    "wiki/sources/neovim",
+    "wiki/sources/cis194",
+    "wiki/sources/RWH-Chapters-zh",
+    "index.md.tmp.200314.1776784491395",
+    "wiki/sources/math-textbook-recommendations.md.tmp.200314.1776784482228",
+    "index.md.tmp.151029.1776778540834",
+    "index.md.tmp.151029.1776778540786",
+    "wiki/sources/cs-textbook-recommendations.md.tmp.151029.1776778527077",
+    "index.md.tmp.46059.1776746939030",
     "Clippings/assets/5045594024cd4dcacf604158b5cdbc3fce7a42e1-250x250.webp",
     "Clippings/assets/72189ac0907cf1fccf3b11553289490c41891293-250x250.webp",
     "Clippings/assets/337ec3073e807548e9254096b073de0df47ed6dc-250x250.webp",

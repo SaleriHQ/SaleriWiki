@@ -1,12 +1,12 @@
 {
   "LatestVersion": "1.6.3",
   "currentWallpaper": {
-    "path": "plugins/live-wallpaper/wallpapers/active/autoSwitch/Wavy Grass 4K60FPS.mp4",
+    "path": "plugins/live-wallpaper/wallpapers/active/normal/Wavy Grass 4K60FPS.mp4",
     "type": "video",
     "zIndex": 4,
-    "opacity": 21,
+    "opacity": 20,
     "brightness": 130,
-    "blurRadius": 8,
+    "blurRadius": 9,
     "contrast": 121,
     "playbackSpeed": 1,
     "Reposition": false,
@@ -16,16 +16,16 @@
     "positionX": 50,
     "positionY": 50,
     "Scale": 1,
-    "Index": 10
+    "Index": 0
   },
   "globalConfig": {
     "config": {
-      "path": "plugins/live-wallpaper/wallpapers/active/autoSwitch/Wavy Grass 4K60FPS.mp4",
+      "path": "plugins/live-wallpaper/wallpapers/active/normal/Wavy Grass 4K60FPS.mp4",
       "type": "video",
       "zIndex": 4,
-      "opacity": 21,
+      "opacity": 20,
       "brightness": 130,
-      "blurRadius": 8,
+      "blurRadius": 9,
       "contrast": 121,
       "playbackSpeed": 1,
       "Reposition": false,
@@ -35,7 +35,7 @@
       "positionX": 50,
       "positionY": 50,
       "Scale": 1,
-      "Index": 10
+      "Index": 0
     },
     "enabled": true
   },
@@ -247,6 +247,11 @@
       "fileName": "Wavy Grass 4K60FPS.mp4"
     },
     {
+      "path": "plugins/live-wallpaper/wallpapers/history/bocchi-the-rock-anime-selfie-live-wallpaper.png",
+      "type": "image",
+      "fileName": "bocchi-the-rock-anime-selfie-live-wallpaper.png"
+    },
+    {
       "path": "plugins/live-wallpaper/wallpapers/history/0001-0250.mp4",
       "type": "video",
       "fileName": "0001-0250.mp4"
@@ -283,7 +288,7 @@
   "ScheduledOptions": {
     "dayNightMode": false,
     "weekly": false,
-    "autoSwitch": true,
+    "autoSwitch": false,
     "dayStartTime": "08:00",
     "nightStartTime": "20:00",
     "intervalCheckTime": "00:10",

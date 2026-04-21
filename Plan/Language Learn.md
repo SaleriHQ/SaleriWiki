@@ -35,22 +35,23 @@
 
 ## 2. 技术栈
 
-| 层级 | 技术选型 |
-|------|---------|
-| 前端 | Nuxt 3 (SPA) + Vue 3 + SCSS + Pinia |
-| 阅读引擎 | epub.js (EPUB) + pdf.js (PDF) |
-| 后端 | **待定**：Go (Hono/Gin) **/** Rust (Axum/Actix) |
-| 数据库 | PostgreSQL + Redis |
-| ORM | SQLx (Go) / Diesel / sqlx (Rust) |
-| 存储 | 服务器本地 + Cloudflare R2（可选） |
-| 部署 | 自托管 VPS（阿里云/腾讯云/Vultr）+ Cloudflare |
+| 层级   | 技术选型                                         |
+| ---- | -------------------------------------------- |
+| 前端   | Nuxt 3 (SPA) + Vue 3 + SCSS + Pinia          |
+| 阅读引擎 | epub.js (EPUB) + pdf.js (PDF)                |
+| 后端   | **待定**：Go (Hono/Gin) **/** Rust (Axum/Actix) |
+| 数据库  | PostgreSQL + Redis                           |
+| ORM  | SQLx (Go) / Diesel / sqlx (Rust)             |
+| 存储   | 服务器本地 + Cloudflare R2（可选）                    |
+| 部署   | 自托管 VPS（阿里云/腾讯云/Vultr）+ Cloudflare           |
 
 ### 后端语言选择
 
-| 语言 | 框架 | 优点 | 缺点 | 推荐场景 |
-|------|------|------|------|----------|
-| **Go** | Hono / Gin / Echo | 上手快、生态成熟、部署简单 | 性能中等 | MVP 快速开发 |
-| **Rust** | Axum / Actix-web | 性能极致、内存安全 | 学习曲线陡 | 性能优化阶段 |
+| 语言       | 框架                | 优点            | 缺点    | 推荐场景     |
+| -------- | ----------------- | ------------- | ----- | -------- |
+| **Go**   | Hono / Gin / Echo | 上手快、生态成熟、部署简单 | 性能中等  | MVP 快速开发 |
+| **Rust** | Axum / Actix-web  | 性能极致、内存安全     | 学习曲线陡 | 性能优化阶段   |
+
 
 > **选择建议**：先用 Go 快速验证产品，后续可根据需要用 Rust 重构性能敏感模块（词典查询）。
 
@@ -246,10 +247,10 @@ components/
 
 ### 开源词典资源
 
-| 词典 | 语言对 | 大小 | 来源 |
-|------|--------|------|------|
-| ECDICT | 英汉 | ~50MB | github.com/skywind3000/ECDICT |
-| JLPT 词典 | 日汉 | ~30MB | MDict 社区 |
+| 词典      | 语言对 | 大小    | 来源                            |
+| ------- | --- | ----- | ----------------------------- |
+| ECDICT  | 英汉  | ~50MB | github.com/skywind3000/ECDICT |
+| JLPT 词典 | 日汉  | ~30MB | MDict 社区                      |
 
 **初期建议**：只集成 ECDICT（免费开源）
 
