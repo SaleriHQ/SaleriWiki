@@ -37,17 +37,12 @@ LIMIT 10
 
 | 文件 | 来源 | 日期 | 标签 |
 |------|------|------|------|
-| [[01-intro_pdf]] | UPenn CIS194 | 2026-04-10 | #clippings #haskell #homework |
 | [[Clippings/01-intro]] | UPenn CIS194 | 2026-04-08 | #clippings #haskell #fp |
-| [[Clippings/01-intro.pdf]] | UPenn CIS194 | 2026-04-08 | #clippings #haskell #pdf |
+| [[Clippings/01-intro_pdf]] | UPenn CIS194 | 2026-04-08 | #clippings #haskell #pdf |
 | [[Clippings/Cn十分钟学会 Haskell - HaskellWiki]] | Haskell Wiki | 2026-04-07 | #clippings #haskell |
 | [[Clippings/llm-wiki]] | Karpathy | 2026-04-08 | #clippings #llm #wiki |
 | [[Clippings/Real-World-Haskell.md]] | O'Reilly | 2026-04-08 | #clippings #book #haskell |
-| [[Clippings/02. Ready Go - Learn You A Haskell for Great Good!]] | LYAH | 2026-04-08 | #clippings #haskell #tutorial |
 | [[Clippings/Project Glasswing Securing critical software for the AI era]] | Anthropic | 2026-04-08 | #clippings #ai #security |
-| [[02-ADTs_pdf]] | UPenn CIS194 | 2026-04-09 | #clippings #haskell #adts |
-| [[02-ADTs]] | UPenn CIS194 | 2026-04-09 | #clippings #haskell #lecture |
-| [[Clippings/Real-World-Haskell-02-03.md]] | O'Reilly | 2026-04-09 | #clippings #haskell #book |
 | [[Clippings/03-rec-poly.md]] | UPenn CIS194 | 2026-04-10 | #clippings #haskell #recursion #polymorphism |
 | [[Clippings/Neovim-0.12-Minimal-Config.md]] | YouTube/Theo | 2026-04-10 | #clippings #neovim #vim #tutorial |
 | [[Clippings/A Guide to vim.pack (Neovim built-in plugin manager).md]] | Echasnovski | 2026-04-10 | #clippings #neovim #plugin #vim.pack |
@@ -82,7 +77,6 @@ LIMIT 10
 | [[Clippings/RWH-Chapters-zh/第26章-布隆过滤器]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
 | [[Clippings/RWH-Chapters-zh/第27章-套接字与系统日志]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
 | [[Clippings/RWH-Chapters-zh/第28章-软件事务内存]] | O'Reilly | 2026-04-11 | #clippings #haskell #book #rwh |
-| [[Clippings/fzf.vim]] | GitHub/junegunn | 2026-04-12 | #clippings #vim #neovim #fuzzy-search #plugin |
 | [[Clippings/ibhagwanfzf-lua Improved fzf.vim written in lua]] | GitHub/ibhagwan | 2026-04-12 | #clippings #neovim #fuzzy-search #lua |
 | [[Clippings/Gaming with CachyOS Guide]] | CachyOS Wiki | 2026-04-12 | #clippings #gaming #cachyos #linux |
 | [[Clippings/CachyOS 游戏指南]] | CachyOS Wiki | 2026-04-12 | #clippings #gaming #cachyos #linux #翻译 |
@@ -90,6 +84,11 @@ LIMIT 10
 | [[Clippings/Minimal Neovim config v0.12 edition]] | vieitesss.github.io | 2026-04-12 | #clippings #neovim #configuration |
 | [[Clippings/leap.nvim]] | Codeberg/andyg | 2026-04-12 | #clippings #neovim #motion #plugin |
 | [[Clippings/Partnership through Play Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy]] | arXiv 2025 | 2026-04-13 | #clippings #HCI #long-distance #gaming #intimacy |
+| [[Clippings/How I run multiple $10K MRR companies on a $20month tech stack]] | stevehanov.ca | 2026-04-21 | #clippings #bootstrap #business #tech-stack |
+| [[Clippings/Jujutsu megamerges for fun and profit]] | isaaccorbrey.com | 2026-04-21 | #clippings #jujutsu #git #vcs |
+| [[Clippings/Computer Science and Engineering]] | 4chan-science | 2026-04-21 | #clippings #computer-science #textbook |
+| [[Clippings/Physics Textbook Recommendations]] | 4chan-science | 2026-04-21 | #clippings #physics #textbook |
+| [[Clippings/Mathematics]] | 4chan-science | 2026-04-21 | #clippings #mathematics #textbook |
 
 **01-intro-full.md** - CIS194 HW1 完整版：信用卡验证算法（Luhn's algorithm），练习 digits、doubleEveryOther、toDigitsRev、validCreditCard 等函数实现
 
@@ -109,13 +108,9 @@ LIMIT 10
 
 **Project Glasswing** - Anthropic 联合多巨头发起的 AI 安全计划，用 Claude 发现零日漏洞
 
-**02-ADTs** - CIS 194 HW2：日志解析系统，练习代数数据类型（MessageType、LogMessage、MessageTree）和二叉搜索树的插入/构建/遍历
+**02-ADTs** - CIS 194 HW2：日志解析系统，练习代数数据类型
 
-**02-ADTs 1.md** - CIS 194 ADT 讲义：FailableDouble、Person 等实例讲解代数数据类型、@ 模式、递归类型
-
-**Real-World-Haskell-02-03.md** - Real World Haskell 第 2、3 章中文翻译：类型系统与自定义类型
-
-**03-rec-poly.md** - CIS194 递归与多态讲义：Map、Filter、Fold 抽象模式，多态数据类型与函数，Prelude 常用函数，全函数与偏函数
+**03-rec-poly.md** - CIS194 递归与多态讲义：Map、Filter、Fold 抽象模式
 
 **Neovim-0.12-Minimal-Config.md** - Neovim 0.12 极简配置教程（62分钟），使用10个插件打造高效编辑器，包含LSP支持、linting、格式化、代码补全
 
@@ -127,9 +122,7 @@ LIMIT 10
 
 **elon-musk-ted-2022-interview.md** - Elon Musk 2022 TED 访谈完整解读：可持续能源三要素、自动驾驶对数曲线、Optimus 人形机器人、Neuralink 脑机接口、Starship 星际文明，附跨领域协同效应分析
 
-**fzf.vim** - junegunn 的 Vim 模糊搜索插件：文件搜索、缓冲区管理、Git 操作、代码搜索等，基于 fzf 核心，异步运行性能优异
-
-**fzf-lua** - ibhagwan 用 Lua 重写的现代化 fzf.vim：内置浮动窗口预览、LSP 集成、DAP 支持、多样化 Profiles，开箱即用
+**ibhagwan-fzf-lua** - ibhagwan 用 Lua 重写的现代化 fzf.vim：内置浮动窗口预览、LSP 集成、DAP 支持、多样化 Profiles，开箱即用
 
 **Partnership through Play** - 华盛顿大学 HCI 研究：13 对远距离情侣如何使用数字游戏维持亲密关系。发现三种情侣玩家原型（合作优先型46%、平衡型38%、竞争优先型16%），以及游戏如何映射到关系维护策略。
 
@@ -162,7 +155,10 @@ LIMIT 10
 | [[wiki/concepts/Either]] | #concept #haskell #monad #error | 1 |
 | [[wiki/concepts/Monad变换器]] | #concept #haskell #monad #transformer | 1 |
 | [[wiki/concepts/Applicative]] | #concept #haskell #applicative | 1 |
-| [[wiki/concepts/Parsec]] | #concept #haskell #parsing | 1 |
+| [[wiki/concepts/Parsec]] | #concept #haskell #parsing | 2 |
+| [[wiki/concepts/单子]] | #concept #haskell #monad | 6 |
+| [[wiki/concepts/游戏化社交]] | #concept #HCI #gamification | 1 |
+| [[wiki/concepts/数字关系维护]] | #concept #HCI #social-computing | 1 |
 | [[wiki/concepts/Proton-CachyOS]] | #concept #gaming #cachyos #proton | 1 |
 | [[wiki/concepts/Linux游戏优化]] | #concept #gaming #linux #performance | 1 |
 | [[wiki/concepts/Lutris]] | #concept #gaming #linux #launcher | 1 |
@@ -185,7 +181,8 @@ LIMIT 10
 | [[wiki/sources/glasswing]] | Anthropic | 2026-04-09 |
 | [[wiki/sources/cis194-hw2]] | UPenn CIS194 | 2026-04-09 |
 | [[wiki/sources/cis194-lecture2-adts]] | UPenn CIS194 | 2026-04-09 |
-| [[wiki/sources/rwh-chapters-2-3]] | O'Reilly | 2026-04-09 |
+| [[wiki/sources/rwh-chapter-02]] | O'Reilly | 2026-04-09 |
+| [[wiki/sources/rwh-chapter-03]] | O'Reilly | 2026-04-09 |
 | [[wiki/sources/vim-pack-guide]] | echasnovski.com | 2026-04-10 |
 | [[wiki/sources/minimax-config]] | nvim-mini.org | 2026-04-10 |
 | [[wiki/sources/cis194-lecture3-rec-poly]] | UPenn CIS194 | 2026-04-10 |
@@ -222,7 +219,19 @@ LIMIT 10
 | [[wiki/sources/fzf-lua]] | github.com/ibhagwan | 2026-04-12 |
 | [[wiki/sources/leap-nvim]] | codeberg.org/andyg | 2026-04-12 |
 | [[wiki/sources/partnership-through-play]] | arxiv.org | 2026-04-13 |
+| [[wiki/sources/how-i-run-multiple-10k-mrr-companies]] | stevehanov.ca | 2026-04-21 |
+| [[wiki/sources/jujutsu-megamerges]] | isaaccorbrey.com | 2026-04-21 |
+| [[wiki/sources/cs-textbook-recommendations]] | 4chan-science | 2026-04-21 |
+| [[wiki/sources/physics-textbook-recommendations]] | 4chan-science | 2026-04-21 |
+| [[wiki/sources/math-textbook-recommendations]] | 4chan-science | 2026-04-21 |
+
+### 引导
+
+| 页面 | 说明 |
+|------|------|
+| [[Plan/Language Learn]] | 语言学习 SaaS 项目规划 |
+| [[Plan/Rust 学习计划]] | Rust 后端开发学习路径 |
 
 ---
 
-*最后更新: 2026-04-13*（ingest: Partnership through Play - 远距离情侣与数字游戏）
+*最后更新: 2026-04-21*（ingest: Physics + CS + Mathematics 教科书推荐）
