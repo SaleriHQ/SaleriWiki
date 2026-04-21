@@ -226,14 +226,14 @@ LIMIT 10
 | [[wiki/sources/cis194/cis194-lecture3-rec-poly]] | UPenn CIS194 | 2026-04-10 |
 
 #### neovim
-| 页面 | 原始来源 | 日期 |
-|------|----------|------|
-| [[wiki/sources/neovim/vim-pack-guide]] | echasnovski.com | 2026-04-10 |
-| [[wiki/sources/neovim/minimax-config]] | nvim-mini.org | 2026-04-10 |
+| 页面                                                  | 原始来源                | 日期         |
+| --------------------------------------------------- | ------------------- | ---------- |
+| [[wiki/sources/neovim/vim-pack-guide]]              | echasnovski.com     | 2026-04-10 |
+| [[wiki/sources/neovim/minimax-config]]              | nvim-mini.org       | 2026-04-10 |
 | [[wiki/sources/neovim/minimal-neovim-v0.12-config]] | vieitesss.github.io | 2026-04-12 |
-| [[wiki/sources/neovim/fzf-lua]] | github.com/ibhagwan | 2026-04-12 |
-| [[wiki/sources/neovim/leap-nvim]] | codeberg.org/andyg | 2026-04-12 |
-| [[wiki/sources/neovim/cachy-gaming]] | wiki.cachyos.org | 2026-04-12 |
+| [[wiki/sources/neovim/fzf-lua]]                     | github.com/ibhagwan | 2026-04-12 |
+| [[wiki/sources/neovim/leap-nvim]]                   | codeberg.org/andyg  | 2026-04-12 |
+| [[wiki/sources/neovim/cachy-gaming]]                | wiki.cachyos.org    | 2026-04-12 |
 
 ### 引导
 
