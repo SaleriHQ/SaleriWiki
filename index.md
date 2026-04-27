@@ -89,6 +89,7 @@ LIMIT 10
 | [[Clippings/Computer Science and Engineering]] | 4chan-science | 2026-04-21 | #clippings #computer-science #textbook |
 | [[Clippings/Physics Textbook Recommendations]] | 4chan-science | 2026-04-21 | #clippings #physics #textbook |
 | [[Clippings/Mathematics]] | 4chan-science | 2026-04-21 | #clippings #mathematics #textbook |
+| [[Clippings/I replaced my entire stack with Postgres...]] | YouTube/The Coding Gopher | 2026-04-27 | #clippings #postgres #backend #database |
 
 **Mathematics** - 4chan 上收集的数学教材推荐清单，包含代数、分析、拓扑等多个方向的经典教材
 
@@ -185,6 +186,7 @@ LIMIT 10
 | [[wiki/sources/cs-textbook-recommendations]] | 4chan-science | 2026-04-21 |
 | [[wiki/sources/physics-textbook-recommendations]] | 4chan-science | 2026-04-21 |
 | [[wiki/sources/math-textbook-recommendations]] | 4chan-science | 2026-04-21 |
+| [[wiki/sources/I replaced my entire stack with Postgres...]] | YouTube | 2026-04-27 |
 
 #### RWH-Chapters-zh
 | 页面 | 原始来源 | 日期 |
