@@ -90,6 +90,8 @@ LIMIT 10
 | [[Clippings/Physics Textbook Recommendations]] | 4chan-science | 2026-04-21 | #clippings #physics #textbook |
 | [[Clippings/Mathematics]] | 4chan-science | 2026-04-21 | #clippings #mathematics #textbook |
 
+**Mathematics** - 4chan 上收集的数学教材推荐清单，包含代数、分析、拓扑等多个方向的经典教材
+
 **01-intro-full.md** - CIS194 HW1 完整版：信用卡验证算法（Luhn's algorithm），练习 digits、doubleEveryOther、toDigitsRev、validCreditCard 等函数实现
 
 **01-intro** - Haskell 基础教程，介绍函数式编程、惰性求值、静态类型等核心概念
@@ -235,6 +237,46 @@ LIMIT 10
 | [[wiki/sources/neovim/leap-nvim]]                   | codeberg.org/andyg  | 2026-04-12 |
 | [[wiki/sources/neovim/cachy-gaming]]                | wiki.cachyos.org    | 2026-04-12 |
 
+#### Code-Complete（软件构建的艺术，Steve McConnell）
+| 页面 | 原始来源 | 日期 |
+|------|----------|------|
+| [[wiki/sources/Code-Complete/第00章-欢迎来到软件构建]] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第01章-软件构建的本质]] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第02章-利用隐喻] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第03章-测量] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第04章-准备] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第05章-软件构建中的设计] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第06章-类的设计] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第07章-高质量子程序] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第08章-防御式编程] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第09章-伪代码编程过程] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第10章-使用变量的一般事项] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第11章-变量的力量] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第12章-基本数据类型] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第13章-不常见的数据类型] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第14章-不常见的数据类型] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第15章-组织直线代码] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第16章-条件语句] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第17章-循环语句] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第18章-不常见的控制结构] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第19章-表驱动方法] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第20章-软件质量景观] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第21章-协作构建] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第22章-开发人员测试] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第23章-调试] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第24章-重构] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第25章-代码调整策略] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第26章-代码调整技术] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第27章-程序规模如何影响构建] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第28章-管理构建] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第29章-集成] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第30章-编程工具] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第31章-布局与风格] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第32章-自文档代码] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第33章-个人性格] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第34章-软件工艺的主题] | Microsoft Press | 2026-04-22 |
+| [[wiki/sources/Code-Complete/第35章-去哪里寻找更多信息] | Microsoft Press | 2026-04-22 |
+
 ### 引导
 
 | 页面 | 说明 |
@@ -244,4 +286,4 @@ LIMIT 10
 
 ---
 
-*最后更新: 2026-04-21*（ingest: Physics + CS + Mathematics 教科书推荐）
+*最后更新: 2026-04-22*

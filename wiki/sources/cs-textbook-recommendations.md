@@ -123,34 +123,6 @@ related:
 | Clean Code | Robert C. Martin | 整洁代码 |
 | The Pragmatic Programmer | Hunt & Thomas | 程序员修炼 |
 
-## 与 Language Learn 的关联
-
-### 你的 Rust 学习计划对应
-
-| CS&E 基础 | Rust 学习计划 |
-|----------|--------------|
-| C++ 编程 | Rust 基础语法 |
-| 数据结构 | 所有权/泛型/Trait |
-| 体系结构 | Async/Axum |
-| APUE | 数据库集成/网络 |
-
-### 推荐补充阅读
-
-1. **分布式系统** — 如果未来需要多服务器部署
-2. **软件工程** — 项目管理和代码质量
-3. **数据库** — PostgreSQL/SQLite 深度理解
-
-## 核心观点
-
-> "You do not know any programming until you've done so [data structures]."
-
-**学习建议**：
-1. 先精通一门语言（C++/Rust）
-2. 学习数据结构与算法
-3. 学习系统级编程（Unix/C）
-4. 学习计算机体系结构
-5. 然后按兴趣深入专题
-
 ## 来源
 
 - [原文链接](https://4chan-science.fandom.com/wiki/Computer_Science_and_Engineering)

@@ -15,7 +15,7 @@ tags:
 
 [Quickstart](#quickstart) • [Installation](#installation) • [Usage](#usage) • [Commands](#commands) • [Customization](#customization) • [Wiki](https://github.com/ibhagwan/fzf-lua/wiki)
 
-[![Demo](https://raw.githubusercontent.com/wiki/ibhagwan/fzf-lua/demo.gif)](https://raw.githubusercontent.com/wiki/ibhagwan/fzf-lua/demo.gif)
+[![[demo.gif|Demo]]](https://raw.githubusercontent.com/wiki/ibhagwan/fzf-lua/demo.gif)
 
 “because you can and you love fzf” - [@junegunn](https://github.com/junegunn)
 

@@ -16,7 +16,7 @@ First of all.
 
 *You can’t expect software optimizations acting like a free hardware upgrade.*
 
-![](https://wiki.cachyos.org/_astro/gaming-meme.Dc0lFTAL.jpeg)
+![[gaming-meme.Dc0lFTAL.jpeg]]
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ Follow the steps below to start with the gaming setup.
 - [Meta Package](#tab-panel-123)
 - [Tools & Stores](#tab-panel-124)
 
-- Open CachyOS Hello. Go to **Apps/Tweaks** and click on `Install Gaming packages`. ![](https://wiki.cachyos.org/_astro/cachyos_hello-gaming.BFhnUF0h.png)
+- Open CachyOS Hello. Go to **Apps/Tweaks** and click on `Install Gaming packages`. ![[cachyos_hello-gaming.BFhnUF0h.png]]
 
 *CachyOS Hello installs both `cachyos-gaming-meta` and `cachyos-gaming-applications`.*
 

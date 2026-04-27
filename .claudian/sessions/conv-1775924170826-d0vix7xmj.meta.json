@@ -1,0 +1,23 @@
+{
+  "id": "conv-1775924170826-d0vix7xmj",
+  "providerId": "claude",
+  "title": "Translate article",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775924170826,
+  "updatedAt": 1775992649768,
+  "lastResponseAt": 1775992647188,
+  "sessionId": "a29fc641-4326-48e5-845e-719a33ec8685",
+  "providerState": {
+    "providerSessionId": "a29fc641-4326-48e5-845e-719a33ec8685"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 110257,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 18047,
+    "contextWindow": 200000,
+    "contextTokens": 128304,
+    "percentage": 64,
+    "contextWindowIsAuthoritative": true
+  }
+}

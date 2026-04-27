@@ -28,7 +28,7 @@ First thing I do is get a cheap, reliable box. Forget AWS. You aren't going to n
 
 1GB of RAM sounds terrifying to modern web developers, but it is plenty if you know what you are doing. If you need a little breathing room, just use a swapfile.
 
-![image.png](https://stevehanov.ca/blog/images/95f16b3dbf861a9156cb2c6d1be39f5e2fcfc1b1f4c5f11ee6f9e182bd4c5f5a.png)
+![[95f16b3dbf861a9156cb2c6d1be39f5e2fcfc1b1f4c5f11ee6f9e182bd4c5f5a.png|image.png]]
 
 The goal is to serve requests, not to maintain infrastructure. When you have one server, you know exactly where the logs are, exactly why it crashed, and exactly how to restart it.
 

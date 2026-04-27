@@ -1,0 +1,22 @@
+{
+  "id": "conv-1775992668591-nicxblrec",
+  "providerId": "claude",
+  "title": "参考Lsp",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775992668592,
+  "updatedAt": 1776788521719,
+  "lastResponseAt": 1776786680918,
+  "sessionId": "216cc86d-ee0c-4a89-957a-71d632f30b7d",
+  "providerState": {
+    "providerSessionId": "216cc86d-ee0c-4a89-957a-71d632f30b7d"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 83581,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 83581,
+    "percentage": 42
+  }
+}

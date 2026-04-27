@@ -1,0 +1,23 @@
+{
+  "id": "conv-1775889046229-qo2bnvd5p",
+  "providerId": "claude",
+  "title": "Ingest new source into wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775889046231,
+  "updatedAt": 1775924164503,
+  "lastResponseAt": 1775889295635,
+  "sessionId": "90f92417-3096-455a-8c0f-ffa815eb2162",
+  "providerState": {
+    "providerSessionId": "90f92417-3096-455a-8c0f-ffa815eb2162"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 16158,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 17196,
+    "contextWindow": 200000,
+    "contextTokens": 33354,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}

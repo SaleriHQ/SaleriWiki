@@ -22,7 +22,7 @@ related:
 
 ## 核心理念
 
-> **先上手，再深入** — 理解概念 > 会推导，缺什么补什么
+> **先上手，再深入** — 理解概念 > 会推导，缺什么补什么5
 
 ---
 
@@ -77,11 +77,11 @@ B站搜索：3Blue1Brown 线性代数
 
 ### 书籍（参考）
 
-| 书籍 | 来源 | 章节 | 用途 |
-|------|------|------|------|
-| **Linear Algebra Done Right** (Axler) | [[Clippings/Mathematics]] | Finite-Dimensional Vector Spaces | 理论深入 |
-| **Shilov** (Dover) | [[Clippings/Mathematics]] | Finite-Dimensional Vector Spaces | 练习题 |
-| **Linear Algebra and Its Applications** (Strang) | [[Clippings/Mathematics]] | Applied Linear Algebra | 应用视角 |
+| 书籍                                               | 来源                        | 章节                               | 用途   |
+| ------------------------------------------------ | ------------------------- | -------------------------------- | ---- |
+| **Linear Algebra Done Right** (Axler)            | [[Clippings/Mathematics]] | Finite-Dimensional Vector Spaces | 理论深入 |
+| **Shilov** (Dover)                               | [[Clippings/Mathematics]] | Finite-Dimensional Vector Spaces | 练习题  |
+| **Linear Algebra and Its Applications** (Strang) | [[Clippings/Mathematics]] | Applied Linear Algebra           | 应用视角 |
 
 ### 实践任务
 
@@ -123,7 +123,7 @@ import numpy as np
 | 最大似然估计 | 训练模型的核心 | ⚠️ 重要 |
 | 贝叶斯定理 | 朴素贝叶斯、先验知识 | ⚠️ 重要 |
 | 信息熵 | 交叉熵损失函数 | ⚠️ 了解 |
-
+ 
 ## 学习资源
 
 ### 视频

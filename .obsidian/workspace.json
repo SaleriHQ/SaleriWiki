@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "96a134c20640822e",
+        "id": "7915ecbd696bb24c",
         "type": "tabs",
         "children": [
           {
-            "id": "2ecbf748959ab28d",
+            "id": "797c7e8ae8a7da79",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Plan/FRD.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "FRD"
             }
           }
         ]
@@ -150,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/Physics Textbook Recommendations.md",
+                "file": "Plan/FRD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Physics Textbook Recommendations 的大纲"
+              "title": "FRD 的大纲"
             }
           }
         ],
@@ -164,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 781.5
+    "width": 406.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,53 +177,53 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2ecbf748959ab28d",
+  "active": "797c7e8ae8a7da79",
   "lastOpenFiles": [
-    "index.md.tmp.200314.1776785573924",
-    "CLAUDE.md.tmp.200314.1776785535886",
-    "CLAUDE.md",
-    "wikilinks.md",
-    "wiki/sources/RWH-Chapters-zh/第28章-软件事务内存.md",
-    "wiki/sources/RWH-Chapters-zh/第27章-套接字与系统日志.md",
-    "wiki/sources/RWH-Chapters-zh/第26章-布隆过滤器.md",
-    "wiki/sources/RWH-Chapters-zh/第25章-性能分析与优化.md",
-    "wiki/sources/RWH-Chapters-zh/第24章-并发与多核编程.md",
-    "wiki/sources/RWH-Chapters-zh/第23章-GUI编程.md",
-    "wiki/sources/RWH-Chapters-zh/第22章-Web客户端编程.md",
-    "wiki/sources/RWH-Chapters-zh/第21章-使用数据库.md",
-    "wiki/sources/RWH-Chapters-zh/第20章-系统编程.md",
-    "wiki/sources/RWH-Chapters-zh/第19章-错误处理.md",
-    "wiki/sources/RWH-Chapters-zh/第18章-单子转换器.md",
-    "wiki/sources/RWH-Chapters-zh/第17章-与C接口-FFI.md",
-    "wiki/sources/RWH-Chapters-zh/第16章-使用Parsec.md",
-    "wiki/sources/RWH-Chapters-zh/第15章-使用单子编程.md",
-    "wiki/sources/RWH-Chapters-zh/第14章-单子.md",
-    "wiki/sources/RWH-Chapters-zh/第13章-数据结构.md",
-    "wiki/sources/RWH-Chapters-zh/第12章-条形码识别.md",
-    "wiki/sources/RWH-Chapters-zh/第11章-测试与质量保证.md",
-    "wiki/sources/RWH-Chapters-zh/第10章-案例研究-解析二进制数据格式.md",
-    "wiki/sources/RWH-Chapters-zh/第09章-案例研究-文件系统搜索库.md",
-    "wiki/sources/RWH-Chapters-zh/第08章-高效文件处理.md",
-    "wiki/sources/RWH-Chapters-zh/第07章-输入输出.md",
-    "wiki/sources/RWH-Chapters-zh/第06章-使用类型类.md",
-    "wiki/sources/neovim",
-    "wiki/sources/cis194",
-    "wiki/sources/RWH-Chapters-zh",
-    "index.md.tmp.200314.1776784491395",
-    "wiki/sources/math-textbook-recommendations.md.tmp.200314.1776784482228",
-    "index.md.tmp.151029.1776778540834",
-    "index.md.tmp.151029.1776778540786",
-    "wiki/sources/cs-textbook-recommendations.md.tmp.151029.1776778527077",
-    "index.md.tmp.46059.1776746939030",
+    "Plan/SRS.md",
+    "Plan/BPD.md",
+    "Plan/FRD.md",
+    "Plan/AI-LLM-自学路线.md",
+    "wiki/sources/LADR4e/第07章-内积空间上的算子.md",
+    "wiki/sources/LADR4e/第08章-复向量空间上的算子.md",
+    "wiki/sources/LADR4e/第04章-多项式.md",
+    "Clippings/Computer Science and Engineering.md",
+    "wiki/sources/LADR4e/第07章-内积空间上的算子.md.tmp.74400.1776942159080",
+    "wiki/sources/LADR4e/第09章-多重线性代数.md",
+    "wiki/sources/LADR4e/第09章-多重线性代数.md.tmp.74400.1776941731447",
+    "wiki/sources/LADR4e/第06章-内积空间.md",
+    "wiki/sources/LADR4e/第06章-内积空间.md.tmp.292721.1776876023193",
+    "wiki/sources/LADR4e/第08章-复向量空间上的算子.md.tmp.292721.1776875096337",
+    "wiki/sources/LADR4e/第02章-有限维向量空间.md",
+    "wiki/sources/LADR4e/第01章-向量空间.md",
+    "wiki/sources/LADR4e/第04章-多项式.md.tmp.292721.1776874838299",
+    "wiki/sources/LADR4e/第02章-有限维向量空间.md.tmp.292721.1776874694917",
+    "Clippings/LADR4e/第01章-Chapter 1.md",
+    "wiki/sources/LADR4e/第01章-向量空间.md.tmp.292721.1776874500870",
+    "Clippings/LADR4e/第09章-Chapter 9.md",
+    "Clippings/LADR4e/第08章-Chapter 8.md",
+    "wiki/sources/LADR4e",
+    "Clippings/LADR4e/raw.md",
+    "Clippings/LADR4e/第07章-Chapter 7.md",
+    "Clippings/LADR4e/第06章-Chapter 6.md",
+    "Clippings/LADR4e/第05章-Chapter 5.md",
+    "Clippings/LADR4e/第04章-Chapter 4.md",
+    "Clippings/LADR4e/第03章-Chapter 3.md",
+    "Clippings/LADR4e/第02章-Chapter 2.md",
+    "Clippings/LADR4e/sed6YXUQU",
+    "Clippings/LADR4e/fixed.md",
+    "Clippings/LADR4e/sedZNQWQT",
+    "Clippings/LADR4e/第01章-向量空间.md",
+    "wiki/sources/RWH-Chapters-zh/第04章-函数式编程.md",
+    "wiki/sources/Code-Complete/第01章-软件构建简介.md",
+    "Clippings/assets/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a6bc166-fe0b-4925-ba8b-f1246e85634a_2388x1668.jpeg",
+    "Clippings/assets/demo.gif",
+    "Clippings/assets/cachyos_hello-gaming.BFhnUF0h.png",
+    "Clippings/assets/gaming-meme.Dc0lFTAL.jpeg",
+    "Clippings/assets/95f16b3dbf861a9156cb2c6d1be39f5e2fcfc1b1f4c5f11ee6f9e182bd4c5f5a.png",
     "Clippings/assets/5045594024cd4dcacf604158b5cdbc3fce7a42e1-250x250.webp",
     "Clippings/assets/72189ac0907cf1fccf3b11553289490c41891293-250x250.webp",
     "Clippings/assets/337ec3073e807548e9254096b073de0df47ed6dc-250x250.webp",
     "Clippings/assets/23f75589f3e194fce5f0373643f50d5e457b8e02-353x65.svg",
-    "Clippings/assets/b55010004f106f318055d6b9f95625ca75df9a6f-321x61.svg",
-    "Clippings/assets/8d9b594d2799002fa929627be502f42830a52719-321x69.svg",
-    "Clippings/assets/a891afd7a10fae83d723c246d560da2b1bda45b9-249x84.svg",
-    "Clippings/assets/512d82c580c9317a77b9f1bcd505f84f14eb603f-375x54.svg",
-    "Clippings/assets/d8f863db0d3fac7838bd2ac4b566bab6ac8fb697-245x83.svg",
-    "Clippings/assets/186a43fd79b2a941acbc7e4d7dfa2d17d42fc2f8-376x67.svg"
+    "Clippings/assets/b55010004f106f318055d6b9f95625ca75df9a6f-321x61.svg"
   ]
 }

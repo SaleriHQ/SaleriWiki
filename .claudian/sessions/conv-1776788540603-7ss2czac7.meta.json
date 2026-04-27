@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776788540603-7ss2czac7",
+  "providerId": "claude",
+  "title": "Translate Code Complete chapters",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776788540604,
+  "updatedAt": 1776843383742,
+  "lastResponseAt": 1776841047789,
+  "sessionId": "02f4bcdb-8a30-40ea-8b7e-44b078f3eb67",
+  "providerState": {
+    "providerSessionId": "02f4bcdb-8a30-40ea-8b7e-44b078f3eb67"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 65293,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 25632,
+    "contextWindow": 200000,
+    "contextTokens": 90925,
+    "percentage": 45,
+    "contextWindowIsAuthoritative": true
+  }
+}
