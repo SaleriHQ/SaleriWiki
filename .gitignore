@@ -5,6 +5,7 @@ Clippings/VideoVTT/
 
 # Claude working files
 .claude/workspace/
+.claudian/
 
 # System files
 .DS_Store

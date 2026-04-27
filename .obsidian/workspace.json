@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "47d5ed21caa83876",
+        "id": "e660b6dc08fdc1ed",
         "type": "tabs",
         "children": [
           {
-            "id": "4be1576e19606a74",
+            "id": "274226c9c61dd88e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Plan/Language Learn.md",
+                "file": "Clippings/I replaced my entire stack with Postgres....md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Language Learn"
+              "title": "I replaced my entire stack with Postgres..."
+            }
+          },
+          {
+            "id": "a3a8d44addea9030",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/sources/I replaced my entire stack with Postgres....md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "I replaced my entire stack with Postgres..."
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "44d8217378ada5b9",
@@ -166,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 618.5,
-    "collapsed": true
+    "width": 618.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,20 +189,45 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "4be1576e19606a74",
+  "active": "a3a8d44addea9030",
   "lastOpenFiles": [
-    "wiki/concepts/Applicative.md",
-    "wiki/concepts/Either.md",
-    "wiki/sources/partnership-through-play.md",
-    "wiki/concepts/远程亲密关系.md",
-    "wiki/concepts/关系维护策略.md",
-    "wiki/concepts/连接六维度.md",
-    "wiki/concepts/合作与竞争游戏.md",
-    "wiki/concepts/情侣玩家原型.md",
-    "Clippings/Partnership through Play Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy.md",
-    "Clippings/Gaming with CachyOS Guide.md",
-    "Clippings/INDEX.md",
-    "CLAUDE.md",
+    "Clippings/I replaced my entire stack with Postgres....md",
+    "wiki/sources/I replaced my entire stack with Postgres....md",
+    "Clippings/assets/Image.jpg",
+    "reports/2026-04-27/综合早报.md",
+    "reports/2026-01-25/github_trending_2110.md",
+    "reports/2026-01-25/general_briefing_1020.md",
+    "reports/2026-04-27/general_briefing_unified.json",
+    "reports/2026-04-27/Weibo_Hot_Search.json",
+    "reports/2026-04-27/Wall_Street_CN.json",
+    "reports/2026-04-27/V2EX.json",
+    "reports/2026-04-27/Tencent_News.json",
+    "reports/2026-04-27/Product_Hunt.json",
+    "reports/2026-04-27/Hacker_News.json",
+    "reports/2026-04-27/GitHub_Trending.json",
+    "reports/2026-04-27/36Kr.json",
+    "reports/2026-01-25/wallstreetcn_market_scan_2105.md",
+    "reports/2026-01-25/social_briefing_2056.md",
+    "reports/2026-01-25/hn_ai_scan_1038.md",
+    "reports/2026-01-24/social_briefing_2210.md",
+    "reports/2026-01-24/global_briefing_2150.md",
+    "reports/2026-01-24/global_briefing_2130.md",
+    "reports/2026-01-24/global_briefing_2115.md",
+    "reports/2026-01-24/global_briefing_2100.md",
+    "reports/2026-01-24/global_briefing_2045.md",
+    "reports/2026-01-24/github_trending_2231.md",
+    "reports/2026-01-24/china_tech_scan_2225.md",
+    "reports/2026-01-23/hn_ph_ai_scan_2155.md",
+    "reports/2026-01-23/hn_deep_ai_0830.md",
+    "reports/2026-01-23/hn_ai_deep_12h_1725.md",
+    "reports/2026-01-23/hn_ai_deep_1000.md",
+    "reports/2026-01-23/global_scan_2139.md",
+    "reports/2026-01-23/global_scan_2051.md",
+    "reports/2026-01-23/global_scan_0800.md",
+    "reports/2026-01-22/weibo_scan_2128.md",
+    "reports/2026-01-22/wallstreetcn_scan_2155.md",
+    "reports/2026-01-22/v2ex_scan_2134.md",
+    "reports/2026-04-27",
     "Clippings/assets/x7.jpg",
     "Clippings/assets/x6.jpg",
     "Clippings/assets/x5.jpg",
@@ -198,31 +236,6 @@
     "Clippings/assets/game_types_combined.jpeg",
     "Clippings/assets/x2.jpg",
     "Clippings/assets/x1.jpg",
-    "Clippings/RWH-Chapters-zh/第03章-定义类型、简化函数.md",
-    "wiki/concepts/标准库函数.md",
-    "Clippings/RWH-Chapters-zh/第02章-类型与函数.md",
-    "Clippings/RWH-Chapters-zh/第01章-入门.md",
-    "未命名.md",
-    "index.md",
-    "wiki/concepts/Lutris.md",
-    "wiki/concepts/全函数与偏函数.md",
-    "wiki/sources/rwh-chapter-16.md.tmp.376068.1776006974800",
-    "wiki/concepts/Parsec.md",
-    "wiki/concepts/Parsec.md.tmp.376068.1776006927188",
-    "wiki/concepts/Applicative.md.tmp.376068.1776006875268",
-    "wiki/concepts/Monad变换器.md",
-    "wiki/concepts/Monad变换器.md.tmp.376068.1776006824261",
-    "wiki/concepts/IO Monad.md",
-    "wiki/concepts/IO Monad.md.tmp.376068.1776006724669",
-    "wiki/concepts/代数数据类型.md.tmp.376068.1776005923481",
-    "wiki/concepts/类型推断.md.tmp.376068.1776005905063",
-    "wiki/concepts/标准库函数.md.tmp.376068.1776005819901",
-    "index.md.tmp.376068.1776005788627",
-    "index.md.tmp.376068.1776005126911",
-    "wiki/sources/leap-nvim.md",
-    "wiki/sources/fzf-lua.md",
-    "wiki/sources/minimal-neovim-v0.12-config.md",
-    "Clippings/assets/5045594024cd4dcacf604158b5cdbc3fce7a42e1-250x250.webp",
-    "Clippings/assets/72189ac0907cf1fccf3b11553289490c41891293-250x250.webp"
+    "Clippings/assets/5045594024cd4dcacf604158b5cdbc3fce7a42e1-250x250.webp"
   ]
 }
